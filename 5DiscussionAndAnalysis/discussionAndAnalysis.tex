@@ -1,0 +1,26 @@
+\chapter{DISCUSSION AND ANALYSIS}
+\begin{enumerate}
+
+\item \textbf{Comparison of Theoretical and Simulated Outputs:} \\
+The theoretical design of the Voice Emotion Analyzer assumed clean, noise-free audio signals with consistent speaking styles. Under these assumptions, stable emotion classification accuracy was expected. During simulated and real-world evaluation, performance variations were observed due to environmental noise, microphone quality, and speaker-dependent characteristics. These discrepancies occurred because real-time audio acquisition introduced distortions that affected preprocessing and feature stability.
+
+\item \textbf{Influence of Preprocessing on Model Behavior:} \\
+Theoretically, normalization and noise reduction were assumed to fully eliminate recording inconsistencies. In practice, preprocessing reduced but did not completely remove noise and silence artifacts, especially in live audio recordings. The signal normalization process was defined as:
+\[
+x_{norm} = \frac{x - \mu}{\sigma}
+\]
+where $x$ represented the raw feature vector, $\mu$ the mean, and $\sigma$ the standard deviation. Minor deviations in $\mu$ and $\sigma$ during live recording resulted in slight variations in extracted features.
+
+\item \textbf{Error Analysis and Sources of Misclassification:} \\
+Most classification errors were observed between acoustically similar emotions such as sadness and neutrality, and happiness and surprise. These errors arose due to overlapping spectral and energy-based features. Since emotional intensity exists on a continuum, discrete labeling introduced ambiguity, leading to confusion in boundary cases.
+
+\item \textbf{Effect of Dataset Constraints on Generalization:} \\
+The training dataset primarily contained acted emotional speech recorded in controlled environments. While theoretical assumptions considered this data representative, practical testing revealed reduced performance on spontaneous speech. Limited demographic diversity and language variability further affected cross-speaker generalization, especially for speakers with subtle emotional expression.
+
+\item \textbf{Comparison with State-of-the-Art Emotion Recognition Systems:} \\
+Compared to traditional classifiers such as Support Vector Machines, the convolutional neural network used in this work demonstrated improved feature learning and robustness. Although attention-based and hybrid deep learning models reported higher accuracy in literature, they required larger datasets and higher computational complexity. The system achieved a balanced trade-off between accuracy and real-time usability.
+
+\item \textbf{Methodological Performance Evaluation:} \\
+The adopted methodology performed better in real-time deployment due to efficient feature extraction and lightweight model architecture. Data augmentation and regularization techniques improved robustness and reduced overfitting. However, the model performed slightly worse than complex architectures in highly noisy environments, indicating a trade-off between computational efficiency and peak accuracy.
+
+\end{enumerate}

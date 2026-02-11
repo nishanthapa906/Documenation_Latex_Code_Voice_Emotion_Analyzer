@@ -1,0 +1,70 @@
+\chapter{REMAINING TASKS}
+
+Although the current implementation of the \textit{Voice Emotion Analyzer} demonstrates strong overall performance, detailed analysis of the training curves, validation results, and confusion matrix highlights several areas where the system can be further improved. These remaining tasks aim to enhance model accuracy, robustness, interpretability, and user experience.
+
+\section{Improving Emotion Discrimination Based on Confusion Patterns}
+
+Analysis of the confusion matrix reveals that while most emotion classes are correctly classified, certain emotionally similar categories occasionally overlap. In particular, emotions such as \textit{sad} and \textit{neutral}, as well as \textit{fear} and other high-arousal emotions, show minor misclassification. This suggests that the current feature representation may not fully capture subtle emotional differences present in speech.
+
+Future improvements can focus on:
+\begin{itemize}
+    \item Enhancing feature extraction by incorporating additional spectral features such as pitch contours, spectral centroid, or chroma features.
+    \item Increasing the diversity of emotional intensity levels within each class to help the model learn finer distinctions.
+    \item Applying class-balanced training techniques to reduce bias toward frequently occurring emotions.
+\end{itemize}
+
+Addressing these factors is expected to reduce confusion between closely related emotional states.
+
+\section{Enhancing Model Generalization Based on Loss Curve Analysis}
+
+The training and validation loss curves indicate effective convergence; however, the early fluctuations in validation loss suggest sensitivity to certain data variations. While overfitting is largely controlled, further improvements can be made to strengthen generalization.
+
+Potential enhancements include:
+\begin{itemize}
+    \item Introducing stronger data augmentation techniques such as pitch shifting, time stretching, and background noise injection.
+    \item Fine-tuning regularization parameters, including dropout rates and batch normalization settings.
+    \item Experimenting with alternative CNN architectures or deeper convolutional layers to capture higher-level emotional patterns.
+\end{itemize}
+
+These steps will help stabilize learning and improve performance on unseen and real-world audio inputs.
+
+\section{Expanding and Refining the Nepali Emotional Speech Dataset}
+
+One of the most impactful improvements lies in expanding the dataset with additional Nepali emotional speech samples. The future dataset will be created and curated manually, with particular attention to emotional tone diversity and natural speech variation.
+
+Planned improvements include:
+\begin{itemize}
+    \item Collecting speech samples representing subtle, mixed, and low-intensity emotions.
+    \item Including speakers from different age groups, genders, and regional accents.
+    \item Recording speech in both controlled and noisy environments to improve robustness.
+    \item Ensuring consistent emotion labeling through careful validation and review.
+\end{itemize}
+
+This expanded dataset is expected to significantly improve test accuracy and reduce misclassification caused by limited emotional representation.
+
+\section{Improving Confidence Estimation and Prediction Reliability}
+
+Although the model provides confidence scores for emotion predictions, further work can be done to improve the reliability and interpretability of these scores. In some cases, high confidence values may still be associated with incorrect predictions, particularly for overlapping emotions.
+
+Future improvements may include:
+\begin{itemize}
+    \item Calibrating confidence scores using probability calibration techniques.
+    \item Introducing threshold-based decision logic to flag uncertain predictions.
+    \item Providing user feedback when emotion detection confidence is low.
+\end{itemize}
+
+These enhancements will increase trustworthiness and transparency in model outputs.
+
+\section{User Interface and Interaction Improvements}
+
+The current Streamlit interface is functional and user-friendly, but further refinements can enhance usability and engagement. Based on system usage and visualization analysis, future UI improvements may include:
+\begin{itemize}
+    \item A more structured layout for emotion results, confidence values, and visualizations.
+    \item Improved emotion history visualization, allowing users to observe trends over time.
+    \item Enhanced responsiveness for different screen sizes and devices.
+    \item Clearer explanations of detected emotions and confidence levels for non-technical users.
+\end{itemize}
+
+Such improvements will make the application more intuitive and accessible.
+
+

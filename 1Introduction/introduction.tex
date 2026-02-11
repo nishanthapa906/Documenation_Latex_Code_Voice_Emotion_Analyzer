@@ -1,0 +1,191 @@
+\chapter{INTRODUCTION}
+\pagenumbering{arabic}
+Emotion recognition based on voice has raised more and more attention due to its relevance in human computer interaction. Smart Machines able to understand the emotional conditions of speech are able to react more wisely and thoughtfully, and therefore make communication more human and purposeful. The speech signals are, however, very complex and fluctuate. Different individuals, gender, style of speaking and recording have varying expressions of emotions. Additional features that make the correct identification of emotions even harder are background noises, microphone quality, and the peculiarities of the language. All of these considerations render voice emotion analysis one of the non-trivial problems, which involves sophisticated signal processing and machine learning algorithms.
+To solve this problem, the voice emotion analyzer project was created to come up with an automatic program which could analyze emotions based on speech records. The main task of the project was to create a system that would be able to hear an audio source and identify correctly the emotional state that the speaker would have. To attain this goal, there are a number of technical processes that were undertaken, such as dataset preparation, audio preprocessing, feature extraction, model selection, training, and the evaluation of performance. The stages were planned to make sure that emotional features that were found in speech were well learnt and remembered by the model.
+There are four popular emotional speech datasets that were used in training and testing. RAVDESS also includes the recordings of trained actors who demonstrated various emotions in a set of scripted sentences, and thus they gave high-quality and balanced emotional samples. TESS is a recording that allows hearing of female speakers who convey various emotions with the same level of pronunciation and clarity. SAVEE has emotional speech samples of men speakers, and therefore, it brings gender-specific variation to the dataset. Besides these publicly available datasets, a special dataset of about 250 voice samples was also created as a part of the project.
+The custom dataset was gathered through the invitation of the participants to record the speech samples describing various emotions. Both the spontaneous speech and the prepared sentences were employed to get the realistic emotional variation.
+Once the data had been collected, feature extraction was carried out to transform raw audio signals into numerical data which could be used in machine learning. The rate of change in sign of the audio signal was measured using ZCR to give information on the signal texture and noisiness. The energy and intensity of speech that tends to change greatly depending on the emotional state was captured using RMS. MFCC were obtained to mimic human auditory perception in terms of spectral properties of speech representation. They were calculated with the help of the standard audio processing methods which are provided in the librosa library, and they were united in order to create a full set of features to classify emotions.
+Better generalization of the models was obtained by data augmentation on training samples. Noise injection was used to simulate real-world recording conditions and time stretching was used to adjust the speech rate without changing pitch and pitch shifting was used to adjust vocal pitch without changing duration. The techniques of augmentation gave rise to several variations of the same audio sample, a greater range of diversity in a dataset, and a lower chance of overfitting; after augmentation, the model was trained on a greater number of acoustic patterns. The classification of emotions was done based on CNN architecture because of its capability of extracting local patterns out of structured input data where by multiple convolution layers were trained to extract hierarchical features and normalization and pooling layers were used to stabilize the learning process and dimensional reduction. The option of dropout layers to prevent overfitting and dense layers to classify final emotions were added, and the loss function was categorical cross-entropy and Adam optimizer was applied to the training process using a constant number of epochs. Once the model had been trained, it was tested using validation data and performed with an accuracy of 83.89 percent, which suggested a consistent performance on seven categories of emotions; the emotion types like anger and happiness were identified more precisely since acoustic cues were more significant, but the fear and disgust were more confused since of the two, the fear had more similar speech patterns. Gender autodetection using pitch detection was also included as another option and proved to differentiate between male and female voice satisfactorily. To facilitate practical application, a web-based interface was created with the help of the Streamlit framework that enabled users to upload audio files or record the speech with a microphone, after which features were extracted, emotions were predicted, confidence scores were shown and visualization of both the waveform and spectrogram were offered with the emission of emotion-related suggestions offered to improve the interaction of the user, but still, creating and testing the emotion recognition model was the tipping point of the whole project.
+\clearpage
+
+\section{Background}
+Emotions had formed a vital section of human communication which was not limited to verbal communication. All the utterances had described emotional information by altering tone, pitch, volume, and rhythm. Such vocal cues had helped human beings to comprehend feelings, intentions, and attitudes when communicating. Such emotional cues were the natural interpretations of human beings and they had been used to facilitate social interaction, empathy, and successful understanding among the individuals.
+The voice processing systems that had been traditionally developed were designed to translate spoken language to text. These systems had concentrated on the linguistic content and overlooked the emotional content that was contained in the voice signal. Consequently, the capacity of computers to decode the emotional context of voice had not been accomplished and this served as a strong differentiation between human communication skills and the machine-based interpretation.
+The artificial intelligence methods had developed to bring opportunities to narrow this gap. Scientists were now working on the ways of enabling the machines to identify and recognize emotions based on voice cues. The early emotion recognition systems had been based on manually derived acoustic features which included pitch, energy and frequency patterns. Even though these strategies had demonstrated early effectiveness, they had previously been unable to capture the variability and multi-dimensionality of emotional voice.
+In particular, the development of machine learning, and deep learning, had greatly enhanced the study of emotions. Deep learning models had already been able to learn meaningful patterns in audio data automatically rather than relying on predefined features completely. Convolutional neural networks were modified to identify voice representations in the form of spectrograms and proved to be able to detect differences in emotion better.
+Access to this field was also advanced by the availability of voice collections of emotion and the best audio processing tools. A stable baseline of emotion recognition system training and testing had been established on standardized data of emotion voice. Simultaneously, features extraction and signal processing had been made easier in the libraries of audio analysis. However, with these advancements, other issues like variability of speakers, environmental noise as well as cultural differences had not disappeared. Such challenges had pointed at the necessity of strong models and varieties of training data to acquire credible emotion recognition within the real-life setting.
+
+\clearpage
+\section{Motivation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{img/Graphics/motivation.png}
+    \caption{Voice Emotion Analyzer}
+    \label{fig:enter-label}
+\end{figure}
+The motivation of the Voice Emotion Analyzer project is to overcome limitations in existing human–computer interaction systems by enabling accurate emotion recognition through voice using artificial intelligence. The key motivating factors are outlined as follows:
+
+\begin{itemize}
+    \item Lack of emotional awareness in current AI-based interaction systems.
+    \item Challenges in accurately identifying human emotions from vocal signals.
+    \item Limited naturalness and engagement in human–computer communication.
+    \item Need to enhance interaction quality through voice-based emotion analysis.
+\end{itemize}
+\clearpage
+
+\section{Problem Statement}
+The development of an accurate and reliable voice emotion recognition system remains a significant challenge. Despite advancements in machine learning and artificial intelligence, existing systems face multiple limitations that hinder their accuracy, robustness, and applicability in real-world scenarios.
+
+\begin{enumerate}
+    \item \textbf{Manual Feature Engineering Dependence:} Many systems rely on handcrafted features to detect emotions. This approach is time-consuming, less scalable, and often fails to capture subtle emotional cues in human voice.
+    
+    \item \textbf{Preprocessing and Acoustic Pattern Extraction:} Identifying meaningful acoustic patterns from raw audio signals is challenging. Poor preprocessing can lead to noise sensitivity, reduced accuracy, and misclassification.
+    
+    \item \textbf{CNN Architecture Design:} Designing an effective convolutional neural network for multi-class emotion classification is complex. Inadequate architecture may fail to distinguish between similar emotions.
+    
+    \item \textbf{Dataset Limitations:} Emotional voice datasets are often small, imbalanced, or lack diversity. This limitation hampers model training, generalization, and fairness across different speakers and recording conditions.
+    
+    \item \textbf{Computational Constraints:} Achieving reliable emotion recognition with low computational cost is difficult, especially for real-time applications.
+    
+    \item \textbf{Spectral and Temporal Feature Analysis:} Extracting and leveraging spectral and temporal features effectively is essential for differentiating emotions with similar vocal patterns.
+    
+    \item \textbf{Overfitting Risks:} Small and limited datasets increase the risk of overfitting, reducing the model's ability to generalize to new or unseen voice data.
+    
+    \item \textbf{Speaker and Environment Variability:} Variations in speaker pitch, accent, or recording conditions can cause significant accuracy fluctuations, challenging the robustness of the system.
+    
+    \item \textbf{Model Validation Challenges:} The absence of large, publicly available emotion datasets complicates model validation and benchmarking.
+    
+    \item \textbf{Real-World Generalization:} Extending emotion recognition models to real-world conversational voice is challenging due to background noise, spontaneous speech, and emotional subtlety.
+\end{enumerate}
+
+To address the above challenges and guide the development of an effective Voice Emotion Analyzer, the following research questions are formulated:
+
+\begin{enumerate}
+    \item How can emotions be identified from voice without manual feature engineering?
+    \item Which preprocessing methods best extract meaningful acoustic patterns from raw audio?
+    \item How can an effective CNN architecture be designed for multi-class emotion classification?
+    \item What strategies can mitigate dataset limitations and imbalance in emotional voice recordings?
+    \item How can reliable emotion recognition be achieved with low computational cost?
+    \item What role do spectral and temporal features play in separating similar emotions?
+    \item How can overfitting on small datasets be prevented?
+    \item How can accuracy variation across speakers and recording conditions be minimized?
+    \item How can models be validated effectively without large public datasets?
+    \item What strategies can generalize emotion recognition to real-world conversational voice?
+\end{enumerate}
+
+\section{Project Objectives}
+\begin{enumerate}
+    \item \textbf{Major} \\
+    - To implement a machine learning model that accurately detect human emotions from voice. 
+    \item \textbf{Minor} \\
+    - To analyze and extract useful features from audio files using Python libraries for emotion classification. \\
+    - To test and evaluate deep learning model to achieve the accuracy in emotion recognition. 
+\end{enumerate}
+
+\section{Scope of Project}
+The project of the Voice Emotion Analyzer creates a system that can be used to recognize emotions based on voice signals and offer the reliable means of interpreting the emotions in human beings. Audio input falls into seven different emotions including angry, disgust, fear, happy, neutral, sad and surprise. The basis of analysis had been provided by the extraction of audio features such as zero crossing rate, energy and at Mel-frequency cepstral coefficients. The noise addition, pitch variation, and time stretching data augmentation techniques had been used to enhance the model and enhance its capability in generalizing to various voice patterns and speakers.
+The convolutional neural network had been trained on four publicly available emotional voice datasets as well as 250 recorded voice samples. The trained model runs on a web interface, which takes uploaded audio files or real time recording. The interface shows determined emotions with confidence scores, and visualizes audio of a speaker and spectrograms and audio waveforms, and, above all, the gender of the speaker. Preprocessing, such as noise reduction, signal normalization, and framing, had been made to improve the clarity of features. Spectral and temporal characteristics enable the model to discriminate similar emotions and CNN records both local and global audio patterns, so no misclassifications can occur. The interface gives instant feedback and delivers the results in a friendly and comprehensive way.
+
+Although the system has its capabilities, it has some shortcomings. The processing of audio input is only performed, and facial expressions or text-based recognition of emotions are not considered. The audio streams are not continuous. With few Nepali samples and mostly with English recording, the training data  lessen the accuracy on other languages. Only recognized emotions are the seven trained ones and the person speakers are not distinguished. The system is also less accurate when the audio is extremely noisy or with spontaneous speech rather than acted samples.Complex emotional expression, sarcasm and cultural variations are not perceived either. Privacy and consent protection was not implemented, and the sensitive user information is not handled. The difference in the pitch of the speaker, tone, accent and recording environment causes fluctuations in performance. The limitations underscore the need to be cautious with data preparation, extracting features, and evaluating them in order to achieve a dependable and understandable voice emotion recognition system.
+
+
+
+\section{Potential Project Applications}
+\begin{enumerate}
+
+    \item \textbf{Mental Health Monitoring:} Voice-based emotion recognition assists mental health professionals by providing objective measurements of patient emotions over time. Regular recordings identify mood patterns, detect indicators of depression or anxiety, and monitor treatment effectiveness. The system alerts healthcare providers to concerning emotional changes while reducing reliance on subjective self-reporting.
+
+    \item \textbf{Customer Service Analysis:} Call centers utilize emotion detection to assess caller sentiment in real-time. Distressed callers are highlighted for attention, and supervisors obtain emotional analytics for quality assurance. Post-call analysis reveals service pain points and informs staff training based on emotional interaction patterns.
+
+    \item \textbf{Educational Technology:} Adaptive learning platforms gauge student engagement and frustration during online instruction. Detection of confusion or disengagement allows dynamic adjustment of content difficulty and presentation style. Educators gain feedback on emotional responses to teaching methods, facilitating early support for struggling students.
+
+    \item \textbf{Human-Computer Interaction:} Voice-controlled interfaces, virtual assistants, and interactive systems benefit from understanding user emotions. The system adapts responses based on detected feelings, enabling empathetic interactions and improving overall user experience.
+
+    \item \textbf{Entertainment and Media Analysis:} Emotion recognition is applied to analyze audience reactions to audio content such as podcasts, audiobooks, and voice performances. This helps content creators understand engagement levels, emotional impact, and listener preferences.
+
+    \item \textbf{Research in Speech and Linguistics:} The system supports academic studies by analyzing emotional expression in speech. Researchers can study voice patterns, cross-cultural differences, and the effect of intonation and pitch on emotion, contributing to studies in linguistics, psychology, and AI.
+
+    \item \textbf{Voice-Based Accessibility Tools:} Emotion detection enhances accessibility for users with communication difficulties. Applications include assisting speech therapy, supporting individuals with autism spectrum disorder, or providing feedback for users practicing emotional expression in speech.
+
+\end{enumerate}
+
+\section{Feasibility Study}
+
+The development of the Voice Emotion Analyzer, an automated system for emotion recognition from human voice, requires a comprehensive feasibility analysis. This section evaluates the project from multiple perspectives to ensure technical viability, economic sustainability, operational efficiency, legal compliance, and timely completion.
+
+\subsection{Technical Feasibility}
+The system relies on modern AI and deep learning technologies, open-source tools, and well-supported libraries to ensure technical feasibility.
+\begin{itemize}
+    \item \textbf{Audio Processing and Feature Extraction:} Python libraries such as LibROSA and NumPy handle audio preprocessing, feature extraction, and analysis efficiently.
+    \item \textbf{CNN-Based Classification:} TensorFlow and PyTorch provide complete support for building and training the convolutional neural network.
+    \item \textbf{Web Interface Integration:} The system operates through a web interface, accepting uploaded audio files and live recordings, displaying emotions, confidence scores, audio waveforms, spectrograms, and speaker gender.
+    \item \textbf{Hardware Requirements:} The system runs smoothly on a standard laptop with 8GB RAM and SSD storage, and audio signals are lightweight to process.
+\end{itemize}
+
+\subsection{Economic Feasibility}
+The project is economically feasible because it utilizes freely available datasets and open-source libraries.
+\begin{itemize}
+    \item \textbf{Cost Efficiency:} RAVDESS, SAVEE, and other public datasets are used for training and testing, eliminating the need for paid resources.
+    \item \textbf{Minimal Hardware Expense:} Existing laptops and standard computing resources were sufficient for development and operation.
+    \item \textbf{Sustainable Development:} All software tools are open-source, resulting in negligible financial burden and suitability for academic and research purposes.
+\end{itemize}
+
+\subsection{Operational Feasibility}
+The system demonstrates operational feasibility due to its straightforward workflow and user interaction.
+\begin{itemize}
+    \item \textbf{Workflow Simplicity:} Users provide a voice sample, and the system automatically handles preprocessing, feature extraction (MFCC, Chroma, Spectral Contrast), and CNN-based emotion prediction.
+    \item \textbf{User-Friendly Interface:} Emotion results, confidence scores, and visualizations are presented clearly, ensuring interpretability.
+    \item \textbf{Practical Applications:} The system supports emotional monitoring, customer service analysis, and voice-based assistance tools effectively.
+\end{itemize}
+
+\subsection{Legal and Ethical Feasibility}
+The project maintains legal and ethical compliance throughout its development.
+\begin{itemize}
+    \item \textbf{Data Privacy:} The system uses datasets allowed for academic research and does not store personal data unless explicitly required.
+    \item \textbf{Licensing Compliance:} No copyrighted materials are used, ensuring legal safety.
+    \item \textbf{Ethical Considerations:} The system respects privacy standards and avoids unauthorized use of sensitive information.
+\end{itemize}
+
+\subsection{Schedule Feasibility}
+The project timeline aligns with academic and research deadlines.
+\begin{itemize}
+    \item \textbf{Development Phases:} Dataset preparation, feature extraction, model training, interface creation, and testing have been completed according to a structured workflow.
+    \item \textbf{Progress Monitoring:} Each phase had defined milestones, ensuring smooth execution and timely project completion.
+\end{itemize}
+
+\subsection{Resource Feasibility}
+The system’s resource requirements are manageable.
+\begin{itemize}
+    \item \textbf{Human Resources:} Development, model training, and interface creation were completed by a small team of developers and testers.
+    \item \textbf{Technical Resources:} Existing computing devices and open-source tools were sufficient for all project tasks.
+\end{itemize}
+
+\subsection{Market Feasibility}
+There is a growing demand for intelligent, emotionally aware systems.
+\begin{itemize}
+    \item \textbf{Target Users:} AI researchers, developers, and organizations interested in human-computer interaction, emotional monitoring, and accessibility solutions.
+    \item \textbf{Competitive Advantage:} The system provides multi-emotion detection, gender identification, and visual feedback, differentiating it from simple audio analysis tools.
+\end{itemize}
+
+\subsection{Social and Cultural Feasibility}
+The system aligns with modern technological and social practices.
+\begin{itemize}
+    \item \textbf{Emotional Awareness:} Supports better interaction between humans and machines, enhancing engagement and understanding.
+    \item \textbf{Cultural Adaptability:} While trained mostly on English and some Nepali samples, the system demonstrates flexibility and potential for expansion to other languages with similar voice patterns.
+\end{itemize}
+
+
+
+\clearpage
+
+
+\section{Originality of the Project}
+The Voice Emotion Analyzer project is unique as it develops a smart voice-based emotion recognition system that can interpret human emotions in real time. In contrast to traditional systems that rely on limited datasets or manual feature extraction, this project focuses on fairness, accuracy, and reliability of emotion recognition across different speakers and recording conditions.
+
+The primary contribution of this project lies in the development of a system that \textbf{combines four publicly available emotional voice datasets with a self-collected corpus of 250 labeled samples}, creating an extensive and diverse training set that improves the \textbf{generalization capability of the model}. Furthermore, the system applies \textbf{data augmentation techniques such as noise injection, time stretching, and pitch shifting} to reproduce real-world recording variations and enhance robustness. A \textbf{custom convolutional neural network architecture} utilizes \textbf{acoustic features instead of raw audio} to classify \textbf{seven emotions angry disgust fear happy neutral sad and surprise}. Another notable contribution is the \textbf{integration of pitch-based gender detection with emotion recognition}, enabling simultaneous analysis of the speaker’s gender and emotional state.
+
+\clearpage
+
+\section{Organization of Project }
+This project report has been structured into seven main chapters, followed by the appendix and references. The first chapter introduces the research topic, including the background, motivation, problem statement, objectives, and scope of the study. Chapter 2 provides a detailed review of the literature, examining important publications and identifying gaps that this research addresses. Chapter 3 explains the methodology, covering the system design, algorithms, data processing methods, and technologies used in the development. Chapter 4 presents the results of the system, including performance measurements, visual outputs, and key observations. Chapter 5 discusses and analyzes the results, comparing them with theoretical expectations and existing systems, while highlighting limitations. Chapter 6 outlines potential future enhancements, describing improvements and additional functionalities that could be implemented. Chapter 7 concludes the report by summarizing the major findings, assessing the overall effectiveness of the system, and reflecting on its contributions. The appendix contains the project timeline and detailed literature reviews of base papers, followed by a complete list of references to all cited research works.

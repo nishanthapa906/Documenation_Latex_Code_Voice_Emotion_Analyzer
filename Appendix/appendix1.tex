@@ -1,0 +1,49 @@
+\section{Project Schedule}
+
+\begin{minipage}{\linewidth}
+  \centering
+  \begin{sideways}
+    \scalebox{0.5}{
+
+\begin{ganttchart}[
+hgrid,
+x unit=3mm,
+y unit chart=8mm,
+time slot format=isodate,
+]{2025-11-01}{2026-01-30}
+\gantttitlecalendar{year, month=name} \\
+
+\ganttmilestone[inline=false]{Draft Proposal}{2025-11-05}\\ 
+\ganttbar[progress=80,inline=false]{Literature Review}{2025-11-06}{2025-11-15}\\
+\ganttmilestone[inline=false]{Problem Identification}{2025-11-10}\\
+\ganttbar[progress=100,inline=false]{Model Selection}{2025-11-11}{2025-11-17}\\
+\ganttmilestone[inline=false]{Proposal Submission}{2025-11-17}\\ 
+\ganttbar[progress=100,inline=false]{Prepare Slides}{2025-11-17}{2025-11-19}\\
+\ganttmilestone[inline=false]{Proposal Defense}{2025-11-20}\\
+
+\ganttbar[progress=80,inline=false]{Dataset Collection}{2025-11-21}{2025-11-28}\\
+\ganttbar[progress=100,inline=false]{Data Pre-processing}{2025-11-25}{2025-12-02}\\
+\ganttbar[progress=100,inline=false]{System Design}{2025-12-01}{2025-12-05}\\
+
+\ganttbar[progress=75,inline=false]{Training Dataset}{2025-12-06}{2025-12-20}\\
+\ganttbar[progress=70,inline=false]{Sample Output}{2025-12-15}{2025-12-28}\\
+\ganttbar[progress=80,inline=false]{UI Generation}{2025-12-20}{2025-12-30}\\
+
+\ganttbar[progress=100,inline=false]{Mid Report Submission}{2025-12-28}{2026-01-05}\\
+\ganttbar[progress=100,inline=false]{Mid Report Slides}{2026-01-04}{2026-01-05}\\
+\ganttmilestone[inline=false]{Mid Report Defense}{2026-01-07}\\
+\ganttbar[progress=100,inline=false]{Collection of Custom Datasets}{2026-01-08}{2026-01-15}\\
+\ganttbar[progress=100,inline=false]{Re-Train Datasets}{2026-01-12}{2026-01-18}\\
+\ganttbar[progress=100,inline=false]{Improving Accuracy}{2026-01-16}{2026-01-22}\\
+\ganttbar[progress=90,inline=false]{Final Report Writing}{2026-01-20}{2026-01-27}\\
+\ganttbar[progress=100,inline=false]{Final Presentation Slides}{2026-01-25}{2026-01-28}\\
+\ganttmilestone[inline=false]{Final Report Submission}{2026-01-29}\\
+
+\end{ganttchart}
+}
+\end{sideways}
+\captionof{figure}[Gantt Chart showing Project Timeline.]{
+Gantt Chart showing Project Timeline
+}
+\end{minipage}
+\newpage

@@ -1,0 +1,740 @@
+\chapter{ METHODOLOGY}
+
+This section presents the systematic methodology employed in developing the Voice Emotion Analyzer. The approach integrates theoretical formulations, feature extraction, convolutional neural network modeling, and post-processing to predict emotions from human voice accurately and efficiently.
+
+\section{Theoretical Formulations}
+
+The Voice Emotion Analyzer relies on deep learning techniques to automatically detect human emotions from audio signals. The system processes raw audio samples from male and female speakers expressing emotions such as happiness, sadness, anger, calmness, fear, disgust, and surprise. Preprocessing steps include noise reduction, silence trimming, amplitude normalization, and extraction of meaningful features using the \texttt{Librosa} library. Important acoustic features such as Mel-Frequency Cepstral Coefficients, Chroma features, Spectral Centroid, and Spectral Contrast are extracted to capture variations in pitch, tone, rhythm, and energy associated with emotional states.
+The extracted features are normalized and passed into a Convolutional Neural Network with Efficient Channel Attention. The CNN learns localized spatial and temporal patterns corresponding to emotion-specific acoustic signatures. The ECA module enhances relevant features while suppressing irrelevant ones, improving the network's focus on emotion-related cues. Post-processing includes the softmax classification layer to output probability scores for each emotion category.
+
+\textbf{Major Benefits:}
+\begin{itemize}
+    \item Automatic feature learning without manual engineering.
+    \item High classification accuracy across multiple emotions.
+    \item Robustness to variations in speakers, accents, and audio quality.
+    \item Real-time applicability for live and recorded audio.
+\end{itemize}
+
+\textbf{Assumptions:}
+\begin{itemize}
+    \item Input audio is of sufficient quality with minimal background noise.
+    \item Training data represents a diverse set of voices and emotional expressions.
+    \item Emotions in recordings are expressed clearly and consistently.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg}
+    \caption{Illustration of the CNN-based Voice Emotion Analyzer pipeline.}
+    \label{fig:voice_pipeline4564}
+\end{figure}
+
+
+
+\section{Mathematical Modeling}
+
+\subsection{Audio Feature Extraction}
+
+For each input audio signal \(A(t)\), the STFT is computed, followed by mapping to the Mel scale. Finally, the Discrete Cosine Transform DCT is applied to obtain MFCCs:
+
+\begin{equation}
+MFCC = DCT\left( \log \left ( |STFT(A(t))| \right) \right)
+\end{equation}
+
+\textbf{Symbols:}
+\begin{itemize}
+    \item \(A(t)\) : Input audio signal as a function of time.
+    \item \(STFT(A(t))\) : Short-Time Fourier Transform of the signal.
+    \item \(DCT\) : Discrete Cosine Transform to obtain compact coefficients.
+    \item \(MFCC\) : Mel-Frequency Cepstral Coefficients used as features.
+\end{itemize}
+
+\subsection{Convolutional Neural Network}
+
+Let \(F\) represent the input feature matrix. The CNN applies convolution with kernel \(K\) to extract high-level feature maps \(O(x,y)\):
+
+\begin{equation}
+O(x, y) = \sum_{i=0}^{k-1} \sum_{j=0}^{k-1} F(x+i, y+j) \cdot K(i, j)
+\end{equation}
+
+\textbf{Symbols:}
+\begin{itemize}
+    \item \(O(x, y)\) : Output feature map at position \((x,y)\)
+    \item \(F(x+i, y+j)\) : Input feature value at offset \((i,j)\)
+    \item \(K(i,j)\) : Convolution kernel weights
+    \item \(k\) : Kernel size
+\end{itemize}
+
+\subsection{Emotion Classification}
+
+Flattened feature maps are passed through fully connected layers and classified using softmax:
+
+\begin{equation}
+P(E_i | F) = \frac{\exp(W_i \cdot F + b_i)}{\sum_{j=1}^{N} \exp(W_j \cdot F + b_j)}
+\end{equation}
+
+\textbf{Symbols:}
+\begin{itemize}
+    \item \(P(E_i | F)\) : Probability of emotion \(E_i\)
+    \item \(W_i, b_i\) : Weights and biases for emotion \(i\)
+    \item \(N\) : Number of emotion classes
+\end{itemize}
+
+\subsection{Training Objective}
+
+The network is trained using categorical cross-entropy loss:
+
+\begin{equation}
+L(\theta) = - \sum_{i=1}^{N} y_i \log(P(E_i | F; \theta))
+\end{equation}
+
+\textbf{Symbols:}
+\begin{itemize}
+    \item \(L(\theta)\) : Loss function dependent on model parameters \(\theta\)
+    \item \(y_i\) : True label of emotion \(i\)
+    \item \(P(E_i | F; \theta)\) : Predicted probability for emotion \(i\)
+\end{itemize}
+
+Minimization of this loss function adjusts the network weights to achieve accurate emotion classification.The methodology combines preprocessing, feature extraction, CNN modeling with attention, and post-processing classification. It ensures that emotional cues are accurately captured from raw audio and mapped to predicted emotion categories. Robustness, real-time capability, and adaptability to different speakers and environments make the system suitable for practical applications such as human-computer interaction, mental health monitoring, and entertainment systems.
+
+\clearpage
+
+
+%This project will be done by using \textbf{Python} as a programming language. We are using \textbf{PyCharm} as an IDE for this project. We used software named "Dia" to make a flowchart. We used LaTex for the systematic documentation.
+\clearpage
+\section{System Block Diagram:}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.09\textwidth, height=4\textheight, keepaspectratio]{img/Graphics/Voice Emotion Analyzer System Block Diagram .png}
+    \caption{System Block Diagram of Voice Emotion Analyzer}
+    \label{fig:system-block-diagram}
+\end{figure}
+
+\subsection{File Upload and Microphone Input}
+This block had represented the origin of audio data for emotion Analyzer. Voice had been acquired either through live microphone input or by uploading pre-recorded audio files. For live input, the audio had been captured in real time at a fixed sampling rate, ensuring minimal distortion and preservation of emotional characteristics. For file uploads, the system had accepted standard audio formats such as WAV or MP3, which had been automatically converted to the required sampling rate and bit depth. The purpose of this block had been to provide high-quality, standardized audio signals that accurately reflected the speaker’s emotional state and were suitable for processing.
+
+\subsection{Audio Preprocessing}
+The captured raw audio signal had undergone multiple preprocessing steps to improve clarity and consistency. Noise reduction had been applied using spectral gating or Wiener filtering to remove background interference while preserving the speaker’s voice. Amplitude normalization had been performed to ensure uniform volume across all recordings. Silence trimming had been executed to eliminate pauses or irrelevant low-energy sections, reducing computational overhead. Pre-emphasis filtering had been optionally applied to enhance high-frequency components, which often contained subtle emotional cues. Additionally, for variable-length audio files, the signal had been segmented or padded to a fixed duration suitable for input to the neural network. The purpose of this block had been to standardize the audio signal, reduce variability due to non-emotional factors, and retain the essential emotional information for feature extraction.
+
+\subsection{Feature Extraction}
+From the preprocessed audio, numerical features had been derived to represent its acoustic properties. Mel-Frequency Cepstral Coefficients (MFCCs) had been computed by first applying a Short-Time Fourier Transform (STFT) to convert the time-domain signal into a frequency-domain representation. The resulting spectrogram had been mapped onto the Mel scale to reflect human auditory perception. Discrete Cosine Transform had been applied to compress the Mel spectrogram into a set of coefficients representing the spectral envelope. Chroma features had been extracted by computing the energy distribution across the 12 pitch classes, capturing harmonic content. Spectral Contrast had been calculated by measuring the difference between peak and valley energies in each frequency sub-band, highlighting tonal variations associated with emotional expression. These features had been normalized and stored in a structured matrix, forming the input for the convolutional neural network. The purpose of this block had been to transform the raw audio into a quantitative representation that preserved emotional characteristics while reducing irrelevant variations.
+
+\subsection{Deep Learning Model}
+The extracted features had been fed into a convolutional neural network integrated with Efficient Channel Attention. Convolutional layers had automatically learned local patterns across time and frequency dimensions of the feature matrix. Efficient Channel Attention had been applied to emphasize emotion-relevant channels and suppress redundant or noisy features. Pooling layers had reduced dimensionality while retaining key information, and the feature maps had subsequently been flattened and processed through fully connected layers. The network had been trained using categorical cross-entropy loss to predict the probability distribution over emotion classes. The purpose of this block had been to learn complex relationships and temporal dependencies in the audio features, enabling accurate classification of emotions such as happiness, sadness, anger, and neutrality.
+
+\subsection{Emotion Classification Output}
+The output of the neural network had been interpreted using a softmax function, converting raw scores into probabilities for each emotion class. The emotion with the highest probability had been selected as the predicted emotion. The purpose of this block had been to provide a discrete and interpretable output corresponding to the speaker’s emotional state. This stage had enabled real-time feedback for live audio or instant analysis for uploaded audio files.
+
+\subsection{Frontend Interface}
+The predicted emotion had been displayed through a user-friendly interface, such as a web dashboard or application GUI. The interface had visualized the detected emotions in real time and provided options for recording, reviewing, or uploading multiple voice files for analysis. Interactive visualizations, such as color-coded emotion indicators or time-series plots of emotional variations, had been provided to enhance interpretability. The purpose of this block had been to allow users to access and interpret the results easily, facilitating practical applications in human-computer interaction, monitoring systems, and emotional analytics.
+
+
+\section{Instrumentation Requirements}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Hardware} & \textbf{Software} & \textbf{Programming Languages} \\
+    \hline
+                              &                      & TensorFlow is used \\
+     Minimum 8GB RAM          & Windows 10/11        & for developing and training\\
+                              &                      & deep learning models.\\
+    \hline
+                              &                      & Python programming \\
+    Intel Core i3/i5 or       & Kaggle               & language is used for \\
+    AMD Ryzen 5/7 processor   &                      & implementing model logic.\\
+    \hline
+                              &                      & Librosa is used for \\
+     SSD of at least 256 GB   & GitHub               & audio feature extraction and \\
+                              &                      & preprocessing tasks.\\
+    \hline
+    A 64-bit operating system & Anaconda / Jupyter   & Other libraries like NumPy, \\
+                              & Notebook Environment & Pandas, Matplotlib, and \\
+                              &                      & Keras are used.\\
+    \hline
+    \end{tabular}
+    \caption{Instrumentation requirements}
+    \label{tab:my_label}
+\end{table}
+
+
+\subsection{Explanation of Instrumentation Requirements}
+
+\textbf{1. Hardware:} The hardware requirements had been defined to ensure smooth and efficient execution of the voice emotion Analyzer system. A minimum of 8GB RAM and a modern processor such as Intel Core i3/i5 or AMD Ryzen 5/7 had been sufficient to handle deep learning model training and data preprocessing tasks. An SSD of at least 256 GB had been employed to store large audio datasets and intermediate features, while a 64-bit operating system provided compatibility with all required development tools and libraries.
+
+\textbf{2. Software:} The software requirements had been selected to provide a reliable and compatible environment for development and experimentation. Windows 10 or 11 had been used as the primary operating system. Development and testing environments like Anaconda or Jupyter Notebook facilitated seamless integration of Python libraries, data visualization, and model training. GitHub had been used for version control and collaborative development, while Kaggle had served as an online platform for experimentation and benchmarking.
+
+\textbf{3. Programming Languages and Libraries:} Python had been the primary programming language, chosen for its flexibility and rich ecosystem of libraries for machine learning and audio processing. TensorFlow had been employed for building, training, and evaluating deep learning models for emotion Analyzer. Librosa had been used extensively for audio preprocessing and feature extraction, including MFCCs, pitch, and spectral features. Additional libraries such as NumPy, Pandas, Matplotlib, and Keras had been used for data handling, visualization, and implementing the deep learning pipeline efficiently.
+\clearpage
+
+%====================== PREAMBLE FIXES ======================
+% Add these lines in the preamble of your main.tex
+% \usepackage{float}           % To use [H] for forcing table/figure placement
+% \usepackage{booktabs}        % Professional table rules
+% \usepackage{caption}         % Control captions
+% \usepackage{graphicx}        % Include images
+ \setcounter{secnumdepth}{3}  % Number subsubsections
+\setcounter{tocdepth}{3}     % Include subsubsections in TOC
+\renewcommand{\arraystretch}{1.2} % More row spacing in tables
+
+% Optional: Reduce spacing before/after subsubsection titles
+% \usepackage{titlesec}
+\titlespacing*{\subsubsection}{0pt}{2ex plus 0.5ex minus 0.2ex}{1ex}
+%=============================================================
+
+\section{Dataset Explanation}
+
+The performance of a voice emotion Analyzer system had been highly dependent on the quality, structure, and relevance of the dataset employed during training and evaluation. In this project, a combination of publicly available benchmark datasets and self-prepared voice recordings had been utilized to ensure emotional diversity, demographic balance, and real-world applicability.
+
+%-------------------------------------------------------------
+\subsection{Relevancy of the Dataset}
+
+The dataset had been selected to directly support the objective of automatic Analyzer of human emotions from voice signals. Emotional expression through voice had been known to vary significantly across speakers, genders, accents, and recording environments. Therefore, a multi-source dataset had been required to capture these variations effectively.
+
+The relevancy of the dataset had been established through the following aspects:
+
+\begin{itemize}
+    \item The dataset had contained voice samples representing emotions commonly expressed in daily human communication, including angry, happy, sad, neutral, fear, disgust, surprise, and calm.
+    \item The inclusion of recordings from multiple speakers and genders had reduced demographic bias and improved model generalization.
+    \item Benchmark datasets had enabled validation and comparison with existing voice emotion Analyzer research.
+    \item Self-prepared recordings had introduced realistic speaking styles and recording conditions, enhancing suitability for real-world deployment.
+\end{itemize}
+
+Thus, the dataset had provided both research credibility and practical relevance for the system.
+
+%-------------------------------------------------------------
+\subsection{Contents of the Dataset}
+
+The dataset had consisted of labeled audio recordings organized to support supervised learning. Each instance had included the following components:
+
+\begin{enumerate}
+    \item \textbf{Audio Files:} Each sample had been represented by a digital audio file stored in lossless format. Structured file naming conventions had encoded speaker identity, emotion category, emotional intensity, and repetition index.
+
+    \item \textbf{Emotion Labels:} Each recording had been annotated with a corresponding emotion label. These labels had enabled the learning of relationships between acoustic features and emotional states.
+
+    \item \textbf{Speaker Information:} The dataset had included voices from multiple speakers of different genders and age groups. Speaker diversity had been preserved through systematic organization.
+
+    \item \textbf{Training, Validation, and Testing Split:} The complete dataset had been divided into training, validation, and testing subsets. Speaker overlap across subsets had been avoided to ensure unbiased performance evaluation.
+\end{enumerate}
+
+%-------------------------------------------------------------
+\subsection{Datasets Used}
+\begin{enumerate}
+    \item \textbf{RAVDESS:}  
+    RAVDESS had contributed 1,440 professionally recorded emotional voice samples from 24 actors with balanced gender representation. The recordings had been captured in controlled studio environments with multiple emotional intensity levels.
+
+    \item \textbf{TESS:}  
+    TESS had provided approximately 2,800 emotional voice recordings from two female speakers belonging to different age groups. Clear articulation and consistent recording conditions had made this dataset suitable for reliable feature extraction.
+
+    \item \textbf{SAVEE:}  
+    SAVEE had contributed 482 emotional voice recordings from four male speakers. The dataset had introduced accent variability and sentence-level emotional expressions.
+
+    \item \textbf{Self-Prepared Dataset:}  
+    In addition to public benchmark datasets, a self-prepared collection had been developed to enhance realism and diversity. Approximately 160 audio recordings had been manually collected and annotated.  
+
+    Speakers had produced scripted and semi-spontaneous voice expressions covering target emotions including angry, happy, sad, neutral, fear, disgust, and surprise. Recordings had been captured using common recording devices under varied acoustic conditions. Each audio file had been manually verified, labeled, and organized prior to feature extraction. This collection had exposed the model to natural variations not always present in acted recordings.
+\end{enumerate}
+
+
+%-------------------------------------------------------------
+\subsection{Dataset Representation}
+
+\subsubsection{Summary of Datasets Used}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\toprule
+Dataset & Samples & Gender & Source \\
+\midrule
+RAVDESS & 1,440 & Male + Female & Ryerson University \\
+TESS & 2,800 & Female & University of Toronto \\
+SAVEE & 482 & Male & University of Surrey \\
+Custom Dataset 1 & 80 & Mixed & Self-Prepared \\
+Custom Dataset 2 & 80 & Mixed & Self-Prepared \\
+\midrule
+\textbf{Total} & 4,882 & Balanced & Multi-source \\
+\bottomrule
+\end{tabular}
+\caption{Summary of all datasets used in the project.}
+\end{table}
+
+%-------------------------------------------------------------
+\subsubsection{Gender Distribution}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Gender & Samples & Percentage \\
+\midrule
+Female & 2,600 & 53.2\% \\
+Male & 2,200 & 45.1\% \\
+Mixed / Unspecified & 82 & 1.7\% \\
+\bottomrule
+\end{tabular}
+\caption{Gender distribution across the datasets.}
+\end{table}
+
+%-------------------------------------------------------------
+\subsubsection{Emotion Distribution}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{img/Graphics/Emotion_distribution_of_alldatasets.png}
+\caption{Emotion distribution of all datasets.}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Emotion & Samples & Percentage \\
+\midrule
+Neutral & 1,100 & 22.5\% \\
+Happy & 900 & 18.4\% \\
+Sad & 900 & 18.4\% \\
+Angry & 850 & 17.4\% \\
+Fear & 750 & 15.4\% \\
+Disgust & 550 & 11.3\% \\
+Surprise & 500 & 10.2\% \\
+Calm & 180 & 3.7\% \\
+\bottomrule
+\end{tabular}
+\caption{Emotion-wise sample distribution.}
+\end{table}
+
+%-------------------------------------------------------------
+\subsubsection{Train, Validation, and Test Split}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Subset & Samples & Percentage \\
+\midrule
+Training & 3,417 & 70\% \\
+Validation & 733 & 15\% \\
+Testing & 732 & 15\% \\
+\bottomrule
+\end{tabular}
+\caption{Partitioning of the dataset into training, validation, and test sets.}
+\end{table}
+
+%-------------------------------------------------------------
+\subsubsection{Audio Characteristics}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ll}
+\toprule
+Attribute & Specification \\
+\midrule
+Format & WAV \\
+Sample Rate & 16,000 -- 48,000 Hz \\
+Standardized Rate & 22,050 Hz \\
+Duration & 1.5 -- 5 seconds \\
+Channels & Mono \\
+Bit Depth & 16-bit / 24-bit \\
+\bottomrule
+\end{tabular}
+\caption{Audio properties of the dataset.}
+\end{table}
+
+%-------------------------------------------------------------
+
+The combined use of benchmark datasets and self-prepared voice recordings had established a comprehensive foundation for training and evaluating the voice emotion Analyzer system. Emotional diversity, speaker variability, and realistic recording conditions had collectively enhanced the generalization capability and practical applicability of the model.
+
+\clearpage
+
+
+
+\section{Description of Algorithm}
+
+The voice emotion Analyzer system processed input audio to classify emotional states using convolutional neural networks. The algorithm operates in several sequential steps, from audio preprocessing to final emotion prediction. The overall pipeline is illustrated in below.
+
+%-------------------------------------------------------------
+\subsection{Algorithm Pipeline}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{img/Graphics/ser_pipeline.png}
+\caption{Pipeline from audio input to output.}
+\label{fig:algorithm-pipeline}
+\end{figure}
+
+%-------------------------------------------------------------
+\subsection{Stepwise Description}
+
+The algorithm is divided into the following steps:
+
+\begin{enumerate}
+
+    \item \textbf{Audio Loading and Preprocessing:} \\
+    Each audio file is loaded at a consistent sampling rate. Preprocessing includes:
+    \begin{itemize}
+        \item Denoising to remove background noise
+        \item Silence trimming to remove non-informative segments
+        \item Normalization of amplitude levels
+        \item Conversion of all clips to a fixed duration
+    \end{itemize}
+    These steps ensure uniformity and quality across recordings.
+
+    \item \textbf{Feature Extraction Using MFCC:} \\
+    The preprocessed audio is divided into overlapping frames. For each frame,Mel Frequency Cepstral Coefficients are computed to capture:
+    \begin{itemize}
+        \item Vocal tract characteristics
+        \item Pitch and energy patterns
+        \item Spectral dynamics related to emotions
+    \end{itemize}
+    The MFCC matrix provides a compact, emotion-rich representation of the audio.
+
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{img/Graphics/mfcc_ok.png}
+    \caption{MFCC feature extraction workflow from raw audio to feature matrix.}
+    \label{fig:mfcc-workflow}
+    \end{figure}
+
+    \item \textbf{Feature Standardization and Reshaping:} \\
+    Extracted MFCC features are standardized to maintain consistent scaling across samples. The features are reshaped into a 2D structure similar to an image to enable processing by CNN models.
+
+    \item \textbf{Dataset Partitioning:} \\
+    The dataset is split into:
+    \begin{itemize}
+        \item Training set for model learning
+        \item Validation set for tuning hyperparameters
+        \item Test set for unbiased evaluation
+    \end{itemize}
+    Speaker overlap between subsets is avoided to ensure fairness.
+
+    \item \textbf{CNN Initialization and Architecture:} \\
+    The CNN consists of:
+    \begin{itemize}
+        \item Convolutional layers to extract local emotional patterns
+        \item Pooling layers to reduce dimensionality
+        \item Dense fully connected layers for classification
+        \item ReLU activations in hidden layers and softmax in the output layer
+    \end{itemize}
+
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/Graphics/ser_cnn_architecture.png}
+    \caption{CNN architecture for processing MFCC features and classifying emotions.}
+    \label{fig:cnn-architecture}
+    \end{figure}
+
+    \item \textbf{Training Phase:} \\
+    During training:
+    \begin{itemize}
+        \item MFCC matrices are fed into the CNN
+        \item Predictions are compared to true labels using categorical cross-entropy loss
+        \item The Adam optimizer minimizes the loss through multiple epochs
+        \item Forward and backward propagation updates the network to learn emotion-related patterns
+    \end{itemize}
+
+    \item \textbf{Testing and Validation:} \\
+    The trained model is evaluated on the testing dataset. Metrics include:
+    \begin{itemize}
+        \item Accuracy 
+           \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{img/Graphics/perclasstestacc.png}
+        \caption{Percentage of Accuracy from each Class}
+        \label{fig:accuracy}
+        \end{figure}
+        \item Confusion matrix
+        \item Precision, recall, and F1-score
+    \end{itemize}
+    This ensures the model correctly distinguishes emotions in unseen audio.
+
+    \item \textbf{Inference Phase for Live Audio:} \\
+    Real-time voice input undergoes the same preprocessing and MFCC extraction. The MFCC matrix is fed to the trained CNN to predict the emotional state.
+
+    \item \textbf{Final Output:} \\
+    The numerical CNN output is mapped to the corresponding emotion label are angry, happy, sad, calm, surprised, disgusted, fearful. This constitutes the final recognized emotion of the input audio.
+
+\end{enumerate}
+
+%-------------------------------------------------------------
+
+
+\clearpage
+
+
+\section{Elaboration of Working Principle}
+
+The functioning of the voice emotion recognition system had been structured into sequential stages, beginning from audio input and concluding with final emotion classification. Each stage had been carefully designed to ensure reliable extraction, representation, and interpretation of emotional cues from human voice signals.
+
+%-------------------------------------------------------------
+\subsection{Voice Input}
+
+Audio signals had been provided either from pre-recorded datasets or through real-time recording by users. The input voice samples had contained human speech exhibiting a range of emotional states such as happy, sad, angry, calm, fearful, and surprised. These inputs had formed the basis for subsequent analysis.
+
+%-------------------------------------------------------------
+\subsection{Pre-processing}
+The raw audio signals had been subjected to preprocessing to ensure uniformity and consistency across the dataset. Each audio clip had been trimmed or padded to a fixed duration of three seconds, and the sampling rate had been standardized. In certain cases, the sampling rate had been increased to augment the number of feature points. Background noise had been reduced, and amplitude levels had been normalized. These steps had ensured that all recordings were suitable for accurate feature extraction.
+
+%-------------------------------------------------------------
+\subsection{Feature Extraction}
+
+Acoustic features had been extracted from the pre-processed audio using the \textbf{LibROSA} library. The extracted features had included:
+
+\clearpage
+\begin{itemize}
+    \item \textit{Mel spectrogram}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{img/Graphics/melspectogram11.png}
+        \caption{Mel spectrogram}
+        \label{fig:melspectrogram}
+    \end{figure}
+    The Mel spectrogram represented the power of different frequency bands over time. It captured the energy distribution of the audio, which helped to distinguish between various emotional states based on tonal patterns.
+
+    \item \textit{Mel-Frequency Cepstral Coefficients (MFCC)}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{img/Graphics/mfcc11.png}
+        \caption{MFCC}
+        \label{fig:mfcc}
+    \end{figure}
+    MFCCs summarized the short-term spectral features of the audio. They provided compact representations of timbre and pitch characteristics, which were crucial for detecting subtle emotional cues.
+
+    \item \textit{Chroma gram}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{img/Graphics/chromagram11.png}
+        \caption{Chroma gram}
+        \label{fig:chromagram}
+    \end{figure}
+    The Chroma gram captured the intensity of the twelve different pitch classes (semitones) in the audio. It highlighted harmonic content, which helped to analyze tonal aspects of speech linked to emotions.
+
+    \item \textit{Spectral Contrast}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{img/Graphics/spectralconstract11.png}
+        \caption{Spectral Contrast}
+        \label{fig:spectralcontrast}
+    \end{figure}
+    Spectral contrast measured the difference between peaks and valleys of the spectrum. This feature emphasized timbral texture and dynamic changes in the voice that often vary with emotional expression.
+
+    \clearpage
+    \item \textit{Zero Crossing Rate}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{img/Graphics/Zerocrossingrate11.png}
+        \caption{Zero Crossing Rate}
+        \label{fig:zerocrossingrate}
+    \end{figure}
+    The Zero Crossing Rate represented the rate at which the signal waveform crossed the zero amplitude line. It reflected the noisiness and high-frequency content of speech, which could be indicative of emotional intensity or agitation.
+\end{itemize}
+
+These features had captured variations in frequency and amplitude patterns corresponding to emotional expression. The output of this process had been numerical feature vectors summarizing the key characteristics of each audio sample.
+
+%-------------------------------------------------------------
+\subsection{Feature Dataset Formation}
+
+All feature vectors had been combined with their respective emotion labels to form a structured dataset. This dataset had been employed for both training and validation of the classification model, ensuring that the system had been provided with both input features and ground truth emotional states.
+
+%-------------------------------------------------------------
+\subsection{Model Building and Training}
+
+For the multi-class classification task, a \textbf{CNN} had been constructed. The CNN had been designed to learn emotion-specific patterns from the feature matrices. Alternative architectures, including \textbf{Multilayer Perceptrons} and \textbf{Long Short-Term Memory} networks, had been evaluated, but the CNN had achieved the highest accuracy.  
+The model had been trained using a majority portion of the dataset, while a smaller portion had been reserved for validation and testing. During training, the network had adjusted its parameters through forward and backward propagation, minimizing the categorical cross-entropy loss with the Adam optimizer.
+
+%-------------------------------------------------------------
+\subsection{Model Evaluation}
+
+Once trained, the CNN had been evaluated on unseen test data to assess its ability to classify emotions accurately. Predictions had been generated as probability distributions across all emotion classes, and the class with the highest probability had been selected as the predicted emotion. Performance had been measured using metrics such as accuracy, confusion matrix, precision, recall, and loss curves.
+
+%-------------------------------------------------------------
+\subsection{Prediction and Output}
+
+After training and evaluation, the model had been employed for predicting emotions from new voice inputs. Real-time or file-based audio had been processed through the same preprocessing and feature extraction pipeline, and the CNN had produced the corresponding emotion label. The output had included gender-specific emotion labels such as \textbf{male\_angry} or \textbf{female\_happy}.
+
+%-------------------------------------------------------------
+\subsection{Testing with Live Voice}
+
+The system had been further validated with live-recorded voice samples collected outside the training dataset. These samples had been analyzed using the same workflow, and the model had demonstrated the ability to identify both gender and emotional states accurately. For instance, an “angry” tone had been detected in the phrase “This coffee sucks.”
+
+%-------------------------------------------------------------
+\subsection{User Authentication with Firebase}
+
+To integrate system accessibility and personalization, a login and signup functionality had been implemented using Firebase Authentication. User credentials had been securely stored and verified through Firebase, enabling:
+\begin{itemize}
+    \item Personalized tracking of user-specific emotion predictions
+    \item Secure access control for live audio input
+    \item Seamless interaction with cloud-based storage for audio recordings
+\end{itemize}
+All authentication events had been logged, and the system had ensured that only verified users could access live voice prediction functionalities.
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth, keepaspectratio]{img/Graphics/Firebase_Auth.png}
+    \caption{Firebase Authentication}
+    \label{fig:authentication_page}
+\end{figure}
+
+
+%-------------------------------------------------------------
+\subsection{Results and Interpretation}
+
+The system had effectively distinguished between male and female voices with near-perfect accuracy. Emotional classification had achieved over 70\% accuracy on test data. With additional feature engineering and expanded datasets, further improvements had been observed. The overall framework had been validated as suitable for real-world deployment, capable of both offline and live voice emotion recognition with secure user management.
+
+
+
+\clearpage
+
+
+% \section{Working Stages For Project}
+% There are Six stages involved in making software using the Iterative model. They are described below:
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=1\textwidth]{img/Graphics/Iterative.jpg}
+%     \caption{Iterative model}
+%     \label{fig:enter-label}
+% \end{figure} 
+
+% \begin{enumerate}
+
+%     \item \textbf{Feasibility study:}
+%     This project aims to develop an image captioning system specifically for the Nepali language. I assessed the feasibility by analyzing the availability of image datasets with Nepali captions, computing resources on Kaggle, and suitable libraries like TensorFlow or PyTorch. This step will help confirm that the project is practical within available time and resources.
+    
+%     \item \textbf{Requirement analysis and specifications:}\\
+%    To create accurate captions in Nepali, I need a dataset with images and corresponding Nepali text captions. Additionally, I selected a model architecture that suits this task, such as CNN-RNN or Transformer, and identify any translation tools for data augmentation if necessary. This phase will clarify the project’s goals, resources, and evaluation metrics like BLEU or ROUGE scores.
+%     \clearpage
+%     \item \textbf{Design:}\\
+%    In the design phase, I will plan the model's architecture, focusing on image feature extraction and Nepali caption generation. I will also design the data preprocessing pipeline, including steps like text tokenization and image resizing. This design will form the foundation for the initial model build.
+   
+
+%     \item \textbf{Implementation:}\\
+%     I will develop a basic version of the image captioning model using the designed architecture. This model will be trained on our dataset to generate initial Nepali captions. By analyzing the model’s preliminary results, I can refine and improve it in the next iterations.
+
+
+
+%     \item \textbf{Testing:}\\
+%      The model's performance will be evaluated using a different dataset. I will assess the accuracy, fluency, and context of the generated captions with certain indices-simple to complex measures such as the BLEU score and manual assessment. The feedback evaluation results will give us some key points for improvements about the performance of the model and the quality of language. 
+     
+%     \item \textbf{Maintenance:}\\
+%     Once the model is developed, I plan to maintain the model by continually feeding it new data, resolving real-world issues by incorporating needed changes into tools, or libraries. This stage keeps the model tuned and valid from the time it is developed.
+% \end{enumerate}
+
+% \clearpage
+
+\section{Verification and Validation Procedures}
+
+\subsection{Verification}
+
+Verification had been carried out to ensure that each component of the Voice Emotion Analyzer system was implemented correctly according to the design and functional specifications. Functional correctness, logical consistency, and system reliability were evaluated using quantitative verification metrics.
+
+The verification process included the following checks:
+
+\begin{enumerate}
+    \item \textbf{Input Standardization:} \\
+    All audio recordings were verified to be correctly standardized in terms of duration, amplitude, and format. The preprocessing pipeline, including noise reduction, silence trimming, normalization, and resampling, was tested to ensure uniform input quality for all modules. 
+    
+    \item \textbf{Feature Extraction Accuracy:} \\
+    The correctness of feature extraction had validated by checking MFCC, Chroma, Spectral Contrast, and RMS energy computations. Each extracted feature vector was inspected to ensure that it accurately represented the acoustic characteristics of the input signal.
+    
+    \item \textbf{Dataset Partitioning Verification:} \\
+    The dataset had split into training, validation, and testing subsets using fixed random seeds. Speaker independence across subsets was verified to prevent data leakage. Verification metrics included:
+    
+    \begin{equation}
+        \text{Split Consistency Rate} = \frac{\text{Number of Samples Correctly Assigned}}{\text{Total Number of Samples}}
+    \end{equation}
+    
+    \item \textbf{Neural Network Structure Validation:} \\
+    Each CNN layer, including convolutional, pooling, and dense layers, was inspected to ensure correct input and output dimensions. Layer configurations were verified against the feature input shape, and forward propagation was tested with sample inputs to confirm proper data flow.
+    
+    \item \textbf{Training Parameter Verification:} \\
+    Training hyperparameters such as learning rate, batch size, optimizer choice, and number of epochs were verified. Loss curves and accuracy trends were monitored to confirm convergence and detect potential underfitting or overfitting.
+    
+    \item \textbf{Output Consistency:} \\
+    Predictions were verified using diverse audio samples with varying emotions and speaker characteristics. The predicted labels were compared against expected emotions, and deviations were analyzed to ensure the system responded correctly to changes in input features.
+    
+    \item \textbf{Module-Specific Metrics:} \\
+    Additional verification metrics were calculated to ensure correctness and reliability:
+    
+    \begin{equation}
+        \text{Feature Extraction Accuracy} = \frac{\text{Correctly Extracted Features}}{\text{Total Features Processed}}
+    \end{equation}
+    
+    \begin{equation}
+        \text{Prediction Consistency Rate} = \frac{\text{Correctly Classified Test Samples}}{\text{Total Test Samples}}
+    \end{equation}
+    
+\end{enumerate}
+
+Through these verification steps, it was confirmed that the system modules operated correctly and the model received clean, consistent, and valid inputs for training and inference.
+
+\subsection{Validation}
+
+Validation was performed to confirm that the Voice Emotion Analyzer correctly classified emotions for unseen audio inputs and operated reliably in real-world conditions. Validation metrics focused on classification performance, robustness, and generalization.
+
+\begin{enumerate}
+    \item \textbf{Overall Accuracy:} \\
+    The overall correctness of the model was measured using accuracy:
+    
+    \begin{equation}
+        \text{Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}}
+    \end{equation}
+    
+    \item \textbf{Precision, Recall, and F1-Score:} \\
+    To evaluate class-wise performance, the following metrics were calculated for each emotion:
+    
+    \begin{equation}
+        \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
+    \end{equation}
+    
+    \begin{equation}
+        \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
+    \end{equation}
+    
+    \begin{equation}
+        \text{F1 Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+    \end{equation}
+    
+    These metrics ensured that each emotion was correctly identified, particularly in cases of class imbalance.
+    
+    \item \textbf{Confusion Matrix:} \\
+    A confusion matrix was generated to visualize misclassifications across emotion classes. Diagonal elements represented correct predictions, while off-diagonal elements indicated misclassifications. This provided insight into which emotions were frequently confused and required further feature engineering.
+    
+    \item \textbf{Model Confidence Evaluation:} \\
+    Confidence scores from the CNN output were analyzed to assess prediction certainty. Low-confidence predictions highlighted ambiguous cases or subtle emotional expressions.
+    
+    \item \textbf{Real-Time and Live Testing:} \\
+    Validation included real-time voice inputs to confirm the system’s performance in practical scenarios. Live testing verified that the model maintained accuracy and reliability when exposed to new speakers, varied recording environments, and spontaneous emotional expressions.
+    
+    \item \textbf{Robustness and Stability Metrics:} \\
+    Error rates, misclassification ratios, and repeated inference checks were performed to confirm system stability and robustness under varied conditions.
+    
+\end{enumerate}
+
+\subsection{Classification Metrics Summary}
+
+Table~\ref{tab:classification-metrics} summarizes the class-wise performance of the Voice Emotion Analyzer using precision, recall, F1-score, and support values for all emotion categories.
+
+\begin{table}[h]
+\centering
+\caption{Classification Metrics for Voice Emotion Analyzer}
+\label{tab:classification-metrics}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Emotion} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Support} \\ \hline
+Angry & 0.8963 & 0.8272 & 0.8604 & 324 \\ \hline
+Disgust & 0.8227 & 0.7477 & 0.7834 & 329 \\ \hline
+Fear & 0.8615 & 0.8511 & 0.8563 & 329 \\ \hline
+Happy & 0.8202 & 0.7927 & 0.8062 & 328 \\ \hline
+Neutral & 0.8551 & 0.9282 & 0.8901 & 515 \\ \hline
+Sad & 0.8012 & 0.8110 & 0.8061 & 328 \\ \hline
+Surprise & 0.8014 & 0.8706 & 0.8346 & 255 \\ \hline
+\textbf{Accuracy} & \multicolumn{4}{c|}{0.8389} \\ \hline
+Macro Avg & 0.8369 & 0.8326 & 0.8339 & 2408 \\ \hline
+Weighted Avg & 0.8393 & 0.8389 & 0.8382 & 2408 \\ \hline
+\end{tabular}
+\end{table}
+
+The verification and validation procedures confirmed that the Voice Emotion Analyzer was functionally correct, reliable, robust, and capable of accurately distinguishing emotions across diverse voice inputs. The methodology also highlighted areas for improvement, including expanding dataset diversity, refining feature extraction, and tuning model hyperparameters for enhanced real-world performance.
