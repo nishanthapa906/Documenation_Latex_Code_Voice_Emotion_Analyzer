@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  3 FEB 2026 07:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  12 FEB 2026 08:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1554,15 +1554,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(108.405pt, 416.83289pt, 72.26999pt)
-* v-part:(T,H,B)=(180.67499pt, 562.96521pt, 101.40665pt)
+* h-part:(L,W,R)=(93.95122pt, 431.28667pt, 72.26999pt)
+* v-part:(T,H,B)=(173.44756pt, 570.19264pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=416.83289pt
-* \textheight=562.96521pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=77.405pt
+* \textwidth=431.28667pt
+* \textheight=570.19264pt
+* \oddsidemargin=21.68123pt
+* \evensidemargin=21.68123pt
+* \topmargin=70.17757pt
 * \headheight=6.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1580,6 +1580,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 11.
+ (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 11.
+ (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 11.
+ (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 11.
+ (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+) (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+) (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
  [7
 
 
@@ -1604,38 +1634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
 
 
-] (main.toc
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 13.
- (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ztmcm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 13.
- (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 13.
- (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 13.
- (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-) (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-) (C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
- [10
+] (main.toc [10
 
 
 
@@ -1679,743 +1678,467 @@ Chapter 1.
 
 
 
-] [2] [3
+] [2
 
 ]
-<img/Graphics/motivation.png, id=790, 670.75594pt x 560.8453pt>
+<img/Graphics/motivation.png, id=786, 670.75594pt x 560.8453pt>
 File: img/Graphics/motivation.png Graphic file (type png)
 <use img/Graphics/motivation.png>
-Package pdftex.def Info: img/Graphics/motivation.png  used on input line 23.
+Package pdftex.def Info: img/Graphics/motivation.png  used on input line 21.
 (pdftex.def)             Requested size: 416.83289pt x 348.52493pt.
- [4
+ [3
 
- <./img/Graphics/motivation.png>] [5
+ <./img/Graphics/motivation.png>] [4
 
-] [6] [7] [8] [9] [10] [11] [12] [13
+] [5] [6] [7] [8] [9] [10] [11] [12
 
-]) [14
+]) [13
 
 ]
 \openout2 = `2Literaturereview/literaturereview.aux'.
 
  (2Literaturereview/literaturereview.tex
 Chapter 2.
-[15
+[14
 
 
 
 
-] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-Overfull \hbox (32.97017pt too wide) in alignment at lines 60--64
+] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
+Overfull \hbox (30.12473pt too wide) in alignment at lines 60--64
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (32.97017pt too wide) in alignment at lines 64--69
+Overfull \hbox (30.12473pt too wide) in alignment at lines 64--69
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (32.97017pt too wide) in alignment at lines 69--71
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (32.97017pt too wide) in alignment at lines 71--72
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (9.26837pt too wide) in paragraph at lines 74--74
+Overfull \hbox (6.42291pt too wide) in paragraph at lines 73--73
 []|\OT1/ptm/m/n/12 (-20) Hadjileontiadis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\OT1/ptm/m/n/12 (+20) voice emo-
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\OT1/ptm/m/n/12 (+20) Voice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\OT1/ptm/m/n/12 (+20) emo-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\OT1/ptm/m/n/12 (+20) recog-ni-tion
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 74--74
+\OT1/ptm/m/n/12 (+20) in con-ver-sa-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\OT1/ptm/m/n/12 (+20) tion recog-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\OT1/ptm/m/n/12 (+20) ni-tion in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \OT1/ptm/m/n/12 (+20) of CNN, RNN,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-\OT1/ptm/m/n/12 (+20) attention-based
+Underfull \hbox (badness 3417) in paragraph at lines 76--76
+\OT1/ptm/m/n/12 (+20) nif-i-cantly out-per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]|\OT1/ptm/m/n/12 (+20) Deep learn-
+Underfull \hbox (badness 4341) in paragraph at lines 76--76
+\OT1/ptm/m/n/12 (+20) forms tra-di-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\OT1/ptm/m/n/12 (+20) ing mod-els
+Underfull \hbox (badness 2671) in paragraph at lines 76--76
+\OT1/ptm/m/n/12 (+20) ti-modal data en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\OT1/ptm/m/n/12 (+20) sig-nif-i-cantly
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]|\OT1/ptm/m/n/12 (+20) Comprehensive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\OT1/ptm/m/n/12 (+20) con-tex-tual and
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\OT1/ptm/m/n/12 (+20) roadmap for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\OT1/ptm/m/n/12 (+20) mul-ti-modal
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\OT1/ptm/m/n/12 (+20) con-ver-sa-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\OT1/ptm/m/n/12 (+20) in-for-ma-tion im-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\OT1/ptm/m/n/12 (+20) proves emo-tion
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 78--79
-\OT1/ptm/m/n/12 (+20) hen-sive roadmap
- []
-
-
-Underfull \hbox (badness 4254) in paragraph at lines 78--79
-\OT1/ptm/m/n/12 (+20) emo-tion recog-ni-
+Underfull \hbox (badness 1158) in paragraph at lines 80--80
+[]|\OT1/ptm/m/n/12 (+20) Yurtay et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[]|\OT1/ptm/m/n/12 (+20) Yurtay,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-\OT1/ptm/m/n/12 (+20) Demirci,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-\OT1/ptm/m/n/12 (+20) Tiryaki,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []|\OT1/ptm/m/n/12 (+20) Emotion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 \OT1/ptm/m/n/12 (+20) recog-ni-tion
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 (+20) on real call
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]|\OT1/ptm/m/n/12 (+20) Achieves 91%
  []
 
 
-Underfull \hbox (badness 4217) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 (+20) cen-ter voice
+Underfull \hbox (badness 6445) in paragraph at lines 83--83
+\OT1/ptm/m/n/12 (+20) ac-cu-racy de-spite
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\OT1/ptm/m/n/12 (+20) Deep learn-ing
+\OT1/ptm/m/n/12 (+20) real-world noise
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-\OT1/ptm/m/n/12 (+20) mod-els trained
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]|\OT1/ptm/m/n/12 (+20) Demonstrates
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-\OT1/ptm/m/n/12 (+20) on spon-ta-neous
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/12 (+20) fea-si-bil-ity in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-\OT1/ptm/m/n/12 (+20) and noisy call
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/12 (+20) in-dus-trial call
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 84--84
-[]|\OT1/ptm/m/n/12 (+20) Achieves up to
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/12 (+20) cen-ter en-vi-ron-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\OT1/ptm/m/n/12 (+20) 91% ac-cu-racy
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+\OT1/ptm/m/n/12 (+20) tra-di-tional ML
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\OT1/ptm/m/n/12 (+20) de-spite real-
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 84--84
-\OT1/ptm/m/n/12 (+20) world noise and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]|\OT1/ptm/m/n/12 (+20) Rastogi,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\OT1/ptm/m/n/12 (+20) Anand,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\OT1/ptm/m/n/12 (+20) Sharma,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\OT1/ptm/m/n/12 (+20) Pan-war
- []
-
-
-Underfull \hbox (badness 5008) in paragraph at lines 89--89
-[]|\OT1/ptm/m/n/12 (+20) Emotion de-
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 89--89
-\OT1/ptm/m/n/12 (+20) tec-tion from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\OT1/ptm/m/n/12 (+20) els out-per-form
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\OT1/ptm/m/n/12 (+20) tra-di-tional ma-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\OT1/ptm/m/n/12 (+20) chine learn-ing
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 92--93
-\OT1/ptm/m/n/12 (+20) tive pipeline for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-\OT1/ptm/m/n/12 (+20) hu-man{computer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-\OT1/ptm/m/n/12 (+20) in-ter-ac-tion and
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+\OT1/ptm/m/n/12 (+20) for HCI and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 95--95
-[]|\OT1/ptm/m/n/12 (+20) Chamishka,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-\OT1/ptm/m/n/12 (+20) Mad-havi,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-\OT1/ptm/m/n/12 (+20) Nawaratne,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-\OT1/ptm/m/n/12 (+20) Ala-hakoon,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-\OT1/ptm/m/n/12 (+20) De Silva,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-\OT1/ptm/m/n/12 (+20) Chil-amkurti,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/ptm/m/n/12 (+20) Real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/ptm/m/n/12 (+20) voice emo-
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 97--97
-[]|\OT1/ptm/m/n/12 (+20) Recurrent neu-ral
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\OT1/ptm/m/n/12 (+20) tion de-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-\OT1/ptm/m/n/12 (+20) net-work with
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]|\OT1/ptm/m/n/12 (+20) RNN with ad-
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 97--97
-\OT1/ptm/m/n/12 (+20) ad-vanced fea-ture
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\OT1/ptm/m/n/12 (+20) vanced fea-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-[]|\OT1/ptm/m/n/12 (+20) RNN-based
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]|\OT1/ptm/m/n/12 (+20) Supports de-
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 98--98
-\OT1/ptm/m/n/12 (+20) sys-tem achieves
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+\OT1/ptm/m/n/12 (+20) ploy-ment of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-\OT1/ptm/m/n/12 (+20) high real-time
- []
-
-
-Underfull \hbox (badness 4479) in paragraph at lines 99--100
-[]|\OT1/ptm/m/n/12 (+20) Supports de-ploy-
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+\OT1/ptm/m/n/12 (+20) emotion-aware
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|\OT1/ptm/m/n/12 (+20) Milling,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\OT1/ptm/m/n/12 (+20) Pokorny,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\OT1/ptm/m/n/12 (+20) Liu, Al-
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 102--102
-\OT1/ptm/m/n/12 (+20) corn, Shen,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\OT1/ptm/m/n/12 (+20) Tavas-soli,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
 []|\OT1/ptm/m/n/12 (+20) Emotion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \OT1/ptm/m/n/12 (+20) recog-ni-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \OT1/ptm/m/n/12 (+20) for autis-tic
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 104--104
-\OT1/ptm/m/n/12 (+20) tec-tion and op-ti-
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+[]|\OT1/ptm/m/n/12 (+20) Highlights
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[]|\OT1/ptm/m/n/12 (+20) Improved re-li-a-
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\OT1/ptm/m/n/12 (+20) pre-pro-cess-ing
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 105--105
-\OT1/ptm/m/n/12 (+20) clas-si-fi-ca-tion for
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\OT1/ptm/m/n/12 (+20) im-por-tance for
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 106--107
-\OT1/ptm/m/n/12 (+20) tance of pre-pro-
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\OT1/ptm/m/n/12 (+20) child-centered
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 106--107
-\OT1/ptm/m/n/12 (+20) de-sign for child-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 []|\OT1/ptm/m/n/12 (+20) Scherer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 []|\OT1/ptm/m/n/12 (+20) Cross-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 \OT1/ptm/m/n/12 (+20) cultural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 \OT1/ptm/m/n/12 (+20) emo-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\OT1/ptm/m/n/12 (+20) in-fer-ence
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|\OT1/ptm/m/n/12 (+20) Comparative
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 111--111
+Underfull \hbox (badness 3098) in paragraph at lines 110--110
 \OT1/ptm/m/n/12 (+20) acous-tic anal-y-sis
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\OT1/ptm/m/n/12 (+20) across dif-fer-ent
+[]|\OT1/ptm/m/n/12 (+20) Universal emo-
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 112--112
-[]|\OT1/ptm/m/n/12 (+20) Identifies uni-ver-
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\OT1/ptm/m/n/12 (+20) tional pat-terns
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 []|\OT1/ptm/m/n/12 (+20) Supports cul-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 4846) in paragraph at lines 112--113
 \OT1/ptm/m/n/12 (+20) tur-ally adap-tive
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 113--114
-\OT1/ptm/m/n/12 (+20) emo-tion recog-ni-
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+\OT1/ptm/m/n/12 (+20) recog-ni-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]|\OT1/ptm/m/n/12 (+20) Tsiourti,
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 116--116
-\OT1/ptm/m/n/12 (+20) Weiss, Wac,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\OT1/ptm/m/n/12 (+20) Vincze
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\OT1/ptm/m/n/12 (+20) Multimodal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \OT1/ptm/m/n/12 (+20) emo-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \OT1/ptm/m/n/12 (+20) recog-ni-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\OT1/ptm/m/n/12 (+20) Integration of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\OT1/ptm/m/n/12 (+20) voice, body
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\OT1/ptm/m/n/12 (+20) voice, ges-tures,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\OT1/ptm/m/n/12 (+20) ges-tures, and
+Underfull \hbox (badness 7631) in paragraph at lines 118--118
+[]|\OT1/ptm/m/n/12 (+20) Multimodal con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[]|\OT1/ptm/m/n/12 (+20) Emotion recog-
+Underfull \hbox (badness 6094) in paragraph at lines 118--118
+\OT1/ptm/m/n/12 (+20) gru-ent cues im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-\OT1/ptm/m/n/12 (+20) ni-tion im-proves
+Underfull \hbox (badness 1748) in paragraph at lines 119--120
+\OT1/ptm/m/n/12 (+20) human-robot in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-\OT1/ptm/m/n/12 (+20) when mul-ti-
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 119--119
-\OT1/ptm/m/n/12 (+20) modal cues are
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-[]|\OT1/ptm/m/n/12 (+20) Guidelines for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/ptm/m/n/12 (+20) and trust-wor-thy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/ptm/m/n/12 (+20) hu-man{robot
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\OT1/ptm/m/n/12 (+20) Alu et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]|\OT1/ptm/m/n/12 (+20) Alu, El-
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 123--123
-\OT1/ptm/m/n/12 (+20) teto, Sto-ica
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []|\OT1/ptm/m/n/12 (+20) Emotion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\OT1/ptm/m/n/12 (+20) recog-ni-tion
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\OT1/ptm/m/n/12 (+20) recog-ni-
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 124--124
-\OT1/ptm/m/n/12 (+20) for com-pan-
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\OT1/ptm/m/n/12 (+20) tion for
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 125--125
-[]|\OT1/ptm/m/n/12 (+20) CNN ap-plied on
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\OT1/ptm/m/n/12 (+20) com-pan-ion
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 126--126
+Underfull \hbox (badness 7740) in paragraph at lines 124--124
+\OT1/ptm/m/n/12 (+20) gram rep-re-sen-ta-
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 125--125
 []|\OT1/ptm/m/n/12 (+20) CNN shows ro-
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 126--126
-\OT1/ptm/m/n/12 (+20) bust-ness against
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]|\OT1/ptm/m/n/12 (+20) Enables adap-
  []
 
 
-Underfull \hbox (badness 7832) in paragraph at lines 126--126
-\OT1/ptm/m/n/12 (+20) noise and real-
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\OT1/ptm/m/n/12 (+20) tive emo-tional
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 127--128
-[]|\OT1/ptm/m/n/12 (+20) Enables adap-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-\OT1/ptm/m/n/12 (+20) emo-tional re-
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\OT1/ptm/m/n/12 (+20) re-sponses in
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\OT1/ptm/m/n/12 (+20) Noroozi,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\OT1/ptm/m/n/12 (+20) Sap-in-ski,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\OT1/ptm/m/n/12 (+20) Kamin-ska,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\OT1/ptm/m/n/12 (+20) An-bar-ja-fari
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\OT1/ptm/m/n/12 (+20) Vocal-based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 \OT1/ptm/m/n/12 (+20) emo-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\OT1/ptm/m/n/12 (+20) Random For-est
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 133--133
-[]|\OT1/ptm/m/n/12 (+20) Tree-based mod-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\OT1/ptm/m/n/12 (+20) els per-form
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\OT1/ptm/m/n/12 (+20) ef-fec-tively with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\OT1/ptm/m/n/12 (+20) low com-pu-ta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 []|\OT1/ptm/m/n/12 (+20) Suitable for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-\OT1/ptm/m/n/12 (+20) lightweight and
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+\OT1/ptm/m/n/12 (+20) lightweight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-\OT1/ptm/m/n/12 (+20) real-time emo-
+Underfull \hbox (badness 6252) in paragraph at lines 136--136
+[]|\OT1/ptm/m/n/12 (+20) Dang et al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-\OT1/ptm/m/n/12 (+20) tion recog-ni-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-\OT1/ptm/m/n/12 (+20) Am-bikaira-
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 138--138
-[]|\OT1/ptm/m/n/12 (+20) Speaker nor-
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 138--138
-\OT1/ptm/m/n/12 (+20) emo-tion pre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\OT1/ptm/m/n/12 (+20) Factor analysis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \OT1/ptm/m/n/12 (+20) based speaker
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/12 (+20) dependent
+Underfull \hbox (badness 5091) in paragraph at lines 139--139
+[]|\OT1/ptm/m/n/12 (+20) Reduces speaker
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-[]|\OT1/ptm/m/n/12 (+20) Enhances ro-
+Underfull \hbox (badness 2653) in paragraph at lines 140--141
+[]|\OT1/ptm/m/n/12 (+20) Enhances cross-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\OT1/ptm/m/n/12 (+20) bust-ness of
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+\OT1/ptm/m/n/12 (+20) speaker con-tin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\OT1/ptm/m/n/12 (+20) tin-u-ous emo-tion
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+\OT1/ptm/m/n/12 (+20) u-ous emo-tion
  []
 
 
-Overfull \hbox (32.97017pt too wide) in alignment at lines 72--146
+Overfull \hbox (30.12473pt too wide) in alignment at lines 69--145
  [] [] [] [] [] 
  []
 
-2Literaturereview/literaturereview.tex:146: ignored error: Infinite glue shrinkage found in box being split [26
+2Literaturereview/literaturereview.tex:145: ignored error: Infinite glue shrinkage found in box being split [25
 
-]
-2Literaturereview/literaturereview.tex:146: ignored error: Infinite glue shrinkage found in box being split [27]) [28]
+]) [26]
 \openout2 = `3Methodology/methodology.aux'.
 
  (3Methodology/methodology.tex
 Chapter 3.
-[29
+[27
 
 
 
 
 ]
-<img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg, id=1048, 853.1875pt x 295.1025pt>
+<img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg, id=1040, 853.1875pt x 295.1025pt>
 File: img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg Graphic file (type jpg)
 <use img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg>
 Package pdftex.def Info: img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg  used on input line 27.
 (pdftex.def)             Requested size: 416.83289pt x 144.1782pt.
- [30 <./img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg>] [31] [32]
-<img/Graphics/Voice Emotion Analyzer System Block Diagram .png, id=1073, 514.92375pt x 219.06844pt>
+ [28 <./img/Graphics/The-overall-pipeline-of-speech-emotion-recognition-with-CNN-based-efficient-channel.jpg>] [29] [30]
+<img/Graphics/Voice Emotion Analyzer System Block Diagram .png, id=1064, 514.92375pt x 219.06844pt>
 File: img/Graphics/Voice Emotion Analyzer System Block Diagram .png Graphic file (type png)
 <use img/Graphics/Voice Emotion Analyzer System Block Diagram .png>
 Package pdftex.def Info: img/Graphics/Voice Emotion Analyzer System Block Diagram .png  used on input line 108.
@@ -2425,79 +2148,79 @@ Overfull \hbox (37.52711pt too wide) in paragraph at lines 108--109
  [][] 
  []
 
-[33
+[31
 
 
- <./img/Graphics/Voice Emotion Analyzer System Block Diagram .png>] [34] [35] [36] [37
+ <./img/Graphics/Voice Emotion Analyzer System Block Diagram .png>] [32] [33] [34] [35
 
-] [38]
-<img/Graphics/Emotion_distribution_of_alldatasets.png, id=1108, 1046.40938pt x 517.18219pt>
+] [36]
+<img/Graphics/Emotion_distribution_of_alldatasets.png, id=1099, 1046.40938pt x 517.18219pt>
 File: img/Graphics/Emotion_distribution_of_alldatasets.png Graphic file (type png)
 <use img/Graphics/Emotion_distribution_of_alldatasets.png>
 Package pdftex.def Info: img/Graphics/Emotion_distribution_of_alldatasets.png  used on input line 285.
 (pdftex.def)             Requested size: 416.83289pt x 206.01692pt.
- [39] [40 <./img/Graphics/Emotion_distribution_of_alldatasets.png>] [41]
-<img/Graphics/ser_pipeline.png, id=1122, 691.58376pt x 412.54124pt>
+ [37] [38 <./img/Graphics/Emotion_distribution_of_alldatasets.png>] [39]
+<img/Graphics/ser_pipeline.png, id=1114, 691.58376pt x 412.54124pt>
 File: img/Graphics/ser_pipeline.png Graphic file (type png)
 <use img/Graphics/ser_pipeline.png>
 Package pdftex.def Info: img/Graphics/ser_pipeline.png  used on input line 362.
 (pdftex.def)             Requested size: 416.83289pt x 248.65343pt.
- [42
+ [40
 
  <./img/Graphics/ser_pipeline.png (PNG copy)>]
-<img/Graphics/mfcc_ok.png, id=1128, 687.56876pt x 1121.18875pt>
+<img/Graphics/mfcc_ok.png, id=1120, 687.56876pt x 1121.18875pt>
 File: img/Graphics/mfcc_ok.png Graphic file (type png)
 <use img/Graphics/mfcc_ok.png>
 Package pdftex.def Info: img/Graphics/mfcc_ok.png  used on input line 395.
 (pdftex.def)             Requested size: 333.46758pt x 543.75879pt.
- [43] [44 <./img/Graphics/mfcc_ok.png (PNG copy)>]
-<img/Graphics/ser_cnn_architecture.png, id=1141, 1204.5pt x 658.46pt>
+ [41] [42 <./img/Graphics/mfcc_ok.png (PNG copy)>]
+<img/Graphics/ser_cnn_architecture.png, id=1132, 1204.5pt x 658.46pt>
 File: img/Graphics/ser_cnn_architecture.png Graphic file (type png)
 <use img/Graphics/ser_cnn_architecture.png>
 Package pdftex.def Info: img/Graphics/ser_cnn_architecture.png  used on input line 423.
 (pdftex.def)             Requested size: 416.83289pt x 227.87225pt.
- [45 <./img/Graphics/ser_cnn_architecture.png>]
-<img/Graphics/perclasstestacc.png, id=1148, 859.2903pt x 407.6028pt>
+ [43 <./img/Graphics/ser_cnn_architecture.png>]
+<img/Graphics/perclasstestacc.png, id=1140, 859.2903pt x 407.6028pt>
 File: img/Graphics/perclasstestacc.png Graphic file (type png)
 <use img/Graphics/perclasstestacc.png>
 Package pdftex.def Info: img/Graphics/perclasstestacc.png  used on input line 443.
 (pdftex.def)             Requested size: 416.83289pt x 197.72443pt.
- [46 <./img/Graphics/perclasstestacc.png>] [47
+ [44 <./img/Graphics/perclasstestacc.png>] [45
 
 ]
-<img/Graphics/melspectogram11.png, id=1161, 487.06969pt x 217.5628pt>
+<img/Graphics/melspectogram11.png, id=1153, 487.06969pt x 217.5628pt>
 File: img/Graphics/melspectogram11.png Graphic file (type png)
 <use img/Graphics/melspectogram11.png>
 Package pdftex.def Info: img/Graphics/melspectogram11.png  used on input line 489.
 (pdftex.def)             Requested size: 416.83289pt x 186.19075pt.
-<img/Graphics/mfcc11.png, id=1162, 459.96844pt x 185.19188pt>
+<img/Graphics/mfcc11.png, id=1154, 459.96844pt x 185.19188pt>
 File: img/Graphics/mfcc11.png Graphic file (type png)
 <use img/Graphics/mfcc11.png>
 Package pdftex.def Info: img/Graphics/mfcc11.png  used on input line 498.
 (pdftex.def)             Requested size: 416.83289pt x 167.83536pt.
-<img/Graphics/chromagram11.png, id=1163, 465.23813pt x 189.70876pt>
+<img/Graphics/chromagram11.png, id=1155, 465.23813pt x 189.70876pt>
 File: img/Graphics/chromagram11.png Graphic file (type png)
 <use img/Graphics/chromagram11.png>
 Package pdftex.def Info: img/Graphics/chromagram11.png  used on input line 507.
 (pdftex.def)             Requested size: 416.83289pt x 169.97498pt.
- [48
+ [46
 
  <./img/Graphics/melspectogram11.png> <./img/Graphics/mfcc11.png>]
-<img/Graphics/spectralconstract11.png, id=1170, 395.22656pt x 179.92218pt>
+<img/Graphics/spectralconstract11.png, id=1162, 395.22656pt x 179.92218pt>
 File: img/Graphics/spectralconstract11.png Graphic file (type png)
 <use img/Graphics/spectralconstract11.png>
 Package pdftex.def Info: img/Graphics/spectralconstract11.png  used on input line 516.
 (pdftex.def)             Requested size: 416.83289pt x 189.7612pt.
- [49 <./img/Graphics/chromagram11.png> <./img/Graphics/spectralconstract11.png>]
-<img/Graphics/Zerocrossingrate11.png, id=1178, 472.01344pt x 179.92218pt>
+ [47 <./img/Graphics/chromagram11.png> <./img/Graphics/spectralconstract11.png>]
+<img/Graphics/Zerocrossingrate11.png, id=1169, 472.01344pt x 179.92218pt>
 File: img/Graphics/Zerocrossingrate11.png Graphic file (type png)
 <use img/Graphics/Zerocrossingrate11.png>
 Package pdftex.def Info: img/Graphics/Zerocrossingrate11.png  used on input line 526.
 (pdftex.def)             Requested size: 416.83289pt x 158.89206pt.
- [50
+ [48
 
  <./img/Graphics/Zerocrossingrate11.png>]
-<img/Graphics/Firebase_Auth.png, id=1184, 1032.85875pt x 338.01282pt>
+<img/Graphics/Firebase_Auth.png, id=1175, 1032.85875pt x 338.01282pt>
 File: img/Graphics/Firebase_Auth.png Graphic file (type png)
 <use img/Graphics/Firebase_Auth.png>
 Package pdftex.def Info: img/Graphics/Firebase_Auth.png  used on input line 575.
@@ -2506,122 +2229,122 @@ Package pdftex.def Info: img/Graphics/Firebase_Auth.png  used on input line 575.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51] [52 <./img/Graphics/Firebase_Auth.png>] [53
+[49] [50 <./img/Graphics/Firebase_Auth.png>] [51
 
-] [54] [55]) [56]
+] [52] [53]) [54]
 \openout2 = `4Results/results.aux'.
 
  (4Results/results.tex
 Chapter 4.
-<img/Graphics/signuppage.png, id=1232, 515.67656pt x 460.72125pt>
+<img/Graphics/signuppage.png, id=1223, 515.67656pt x 460.72125pt>
 File: img/Graphics/signuppage.png Graphic file (type png)
 <use img/Graphics/signuppage.png>
 Package pdftex.def Info: img/Graphics/signuppage.png  used on input line 6.
 (pdftex.def)             Requested size: 416.83289pt x 372.42293pt.
-<img/Graphics/Login_page.png, id=1233, 472.01344pt x 246.9225pt>
+<img/Graphics/Login_page.png, id=1224, 472.01344pt x 246.9225pt>
 File: img/Graphics/Login_page.png Graphic file (type png)
 <use img/Graphics/Login_page.png>
 Package pdftex.def Info: img/Graphics/Login_page.png  used on input line 16.
 (pdftex.def)             Requested size: 416.83289pt x 218.06107pt.
-[57
+[55
 
 
 
 
  <./img/Graphics/signuppage.png>]
-<img/Graphics/final_homepage.png, id=1239, 639.89063pt x 636.12656pt>
+<img/Graphics/final_homepage.png, id=1231, 639.89063pt x 636.12656pt>
 File: img/Graphics/final_homepage.png Graphic file (type png)
 <use img/Graphics/final_homepage.png>
 Package pdftex.def Info: img/Graphics/final_homepage.png  used on input line 27.
 (pdftex.def)             Requested size: 416.83289pt x 414.38977pt.
- [58 <./img/Graphics/Login_page.png>]
-<img/Graphics/home_page_final.png, id=1245, 1366.35469pt x 581.92406pt>
+ [56 <./img/Graphics/Login_page.png>]
+<img/Graphics/home_page_final.png, id=1237, 1366.35469pt x 581.92406pt>
 File: img/Graphics/home_page_final.png Graphic file (type png)
 <use img/Graphics/home_page_final.png>
 Package pdftex.def Info: img/Graphics/home_page_final.png  used on input line 37.
 (pdftex.def)             Requested size: 416.83289pt x 177.52654pt.
- [59 <./img/Graphics/final_homepage.png>]
-<img/Graphics/live_audio_final.png, id=1251, 720.44156pt x 652.68843pt>
+ [57 <./img/Graphics/final_homepage.png>]
+<img/Graphics/live_audio_final.png, id=1243, 720.44156pt x 652.68843pt>
 File: img/Graphics/live_audio_final.png Graphic file (type png)
 <use img/Graphics/live_audio_final.png>
 Package pdftex.def Info: img/Graphics/live_audio_final.png  used on input line 47.
 (pdftex.def)             Requested size: 416.83289pt x 377.63335pt.
- [60 <./img/Graphics/home_page_final.png>]
-<img/Graphics/Emotion_distribution_of_live.png, id=1257, 673.76718pt x 254.45062pt>
+ [58 <./img/Graphics/home_page_final.png>]
+<img/Graphics/Emotion_distribution_of_live.png, id=1249, 673.76718pt x 254.45062pt>
 File: img/Graphics/Emotion_distribution_of_live.png Graphic file (type png)
 <use img/Graphics/Emotion_distribution_of_live.png>
 Package pdftex.def Info: img/Graphics/Emotion_distribution_of_live.png  used on input line 57.
 (pdftex.def)             Requested size: 416.83289pt x 157.41997pt.
- [61 <./img/Graphics/live_audio_final.png>]
-<img/Graphics/disgust_waves1.png, id=1264, 722.7pt x 216.81pt>
+ [59 <./img/Graphics/live_audio_final.png>]
+<img/Graphics/disgust_waves1.png, id=1255, 722.7pt x 216.81pt>
 File: img/Graphics/disgust_waves1.png Graphic file (type png)
 <use img/Graphics/disgust_waves1.png>
 Package pdftex.def Info: img/Graphics/disgust_waves1.png  used on input line 67.
 (pdftex.def)             Requested size: 416.83289pt x 125.04852pt.
-<img/Graphics/disgust_spectrogram.png, id=1265, 722.7pt x 216.81pt>
+<img/Graphics/disgust_spectrogram.png, id=1256, 722.7pt x 216.81pt>
 File: img/Graphics/disgust_spectrogram.png Graphic file (type png)
 <use img/Graphics/disgust_spectrogram.png>
 Package pdftex.def Info: img/Graphics/disgust_spectrogram.png  used on input line 77.
 (pdftex.def)             Requested size: 416.83289pt x 125.04852pt.
- [62 <./img/Graphics/Emotion_distribution_of_live.png> <./img/Graphics/disgust_waves1.png>]
-<img/Graphics/Suggestion_live.png, id=1272, 720.44156pt x 330.48468pt>
+ [60 <./img/Graphics/Emotion_distribution_of_live.png> <./img/Graphics/disgust_waves1.png>]
+<img/Graphics/Suggestion_live.png, id=1263, 720.44156pt x 330.48468pt>
 File: img/Graphics/Suggestion_live.png Graphic file (type png)
 <use img/Graphics/Suggestion_live.png>
 Package pdftex.def Info: img/Graphics/Suggestion_live.png  used on input line 87.
 (pdftex.def)             Requested size: 416.83289pt x 191.21227pt.
-<img/Graphics/File_upload_final.png, id=1273, 671.50874pt x 584.93532pt>
+<img/Graphics/File_upload_final.png, id=1264, 671.50874pt x 584.93532pt>
 File: img/Graphics/File_upload_final.png Graphic file (type png)
 <use img/Graphics/File_upload_final.png>
 Package pdftex.def Info: img/Graphics/File_upload_final.png  used on input line 96.
 (pdftex.def)             Requested size: 416.83289pt x 363.09349pt.
- [63 <./img/Graphics/disgust_spectrogram.png> <./img/Graphics/Suggestion_live.png>]
-<img/Graphics/file_uplod_wave_form.png, id=1280, 722.7pt x 216.81pt>
+ [61 <./img/Graphics/disgust_spectrogram.png> <./img/Graphics/Suggestion_live.png>]
+<img/Graphics/file_uplod_wave_form.png, id=1272, 722.7pt x 216.81pt>
 File: img/Graphics/file_uplod_wave_form.png Graphic file (type png)
 <use img/Graphics/file_uplod_wave_form.png>
 Package pdftex.def Info: img/Graphics/file_uplod_wave_form.png  used on input line 106.
 (pdftex.def)             Requested size: 416.83289pt x 125.04852pt.
- [64 <./img/Graphics/File_upload_final.png> <./img/Graphics/file_uplod_wave_form.png>]
-<img/Graphics/fileupload_spectorgram.png, id=1287, 722.7pt x 216.81pt>
+ [62 <./img/Graphics/File_upload_final.png> <./img/Graphics/file_uplod_wave_form.png>]
+<img/Graphics/fileupload_spectorgram.png, id=1279, 722.7pt x 216.81pt>
 File: img/Graphics/fileupload_spectorgram.png Graphic file (type png)
 <use img/Graphics/fileupload_spectorgram.png>
 Package pdftex.def Info: img/Graphics/fileupload_spectorgram.png  used on input line 116.
 (pdftex.def)             Requested size: 416.83289pt x 125.04852pt.
-<img/Graphics/emotion_distributio_of_upload.png, id=1288, 672.26157pt x 256.70906pt>
+<img/Graphics/emotion_distributio_of_upload.png, id=1280, 672.26157pt x 256.70906pt>
 File: img/Graphics/emotion_distributio_of_upload.png Graphic file (type png)
 <use img/Graphics/emotion_distributio_of_upload.png>
 Package pdftex.def Info: img/Graphics/emotion_distributio_of_upload.png  used on input line 126.
 (pdftex.def)             Requested size: 416.83289pt x 159.17363pt.
-<img/Graphics/suggestion_file_upload.png, id=1289, 711.4078pt x 324.46219pt>
+<img/Graphics/suggestion_file_upload.png, id=1281, 711.4078pt x 324.46219pt>
 File: img/Graphics/suggestion_file_upload.png Graphic file (type png)
 <use img/Graphics/suggestion_file_upload.png>
 Package pdftex.def Info: img/Graphics/suggestion_file_upload.png  used on input line 137.
 (pdftex.def)             Requested size: 416.83289pt x 190.11903pt.
- [65 <./img/Graphics/fileupload_spectorgram.png> <./img/Graphics/emotion_distributio_of_upload.png>]
-<img/Graphics/History_final.png, id=1296, 888.31876pt x 293.59688pt>
+ [63 <./img/Graphics/fileupload_spectorgram.png> <./img/Graphics/emotion_distributio_of_upload.png>]
+<img/Graphics/History_final.png, id=1288, 888.31876pt x 293.59688pt>
 File: img/Graphics/History_final.png Graphic file (type png)
 <use img/Graphics/History_final.png>
 Package pdftex.def Info: img/Graphics/History_final.png  used on input line 147.
 (pdftex.def)             Requested size: 416.83289pt x 137.76654pt.
- [66 <./img/Graphics/suggestion_file_upload.png> <./img/Graphics/History_final.png>] [67
+ [64 <./img/Graphics/suggestion_file_upload.png> <./img/Graphics/History_final.png>] [65
 
 ]
-<img/Graphics/Accuracyonlycurve.png, id=1308, 563.10374pt x 362.85562pt>
+<img/Graphics/Accuracyonlycurve.png, id=1299, 563.10374pt x 362.85562pt>
 File: img/Graphics/Accuracyonlycurve.png Graphic file (type png)
 <use img/Graphics/Accuracyonlycurve.png>
 Package pdftex.def Info: img/Graphics/Accuracyonlycurve.png  used on input line 176.
 (pdftex.def)             Requested size: 416.83289pt x 268.60307pt.
-<img/Graphics/lossonlycurve.png, id=1309, 623.32875pt x 408.02437pt>
+<img/Graphics/lossonlycurve.png, id=1300, 623.32875pt x 408.02437pt>
 File: img/Graphics/lossonlycurve.png Graphic file (type png)
 <use img/Graphics/lossonlycurve.png>
 Package pdftex.def Info: img/Graphics/lossonlycurve.png  used on input line 182.
 (pdftex.def)             Requested size: 416.83289pt x 272.85815pt.
- [68 <./img/Graphics/Accuracyonlycurve.png> <./img/Graphics/lossonlycurve.png>]
-<img/Graphics/final_confusionmatrix.png, id=1316, 680.7834pt x 551.4201pt>
+ [66 <./img/Graphics/Accuracyonlycurve.png> <./img/Graphics/lossonlycurve.png>]
+<img/Graphics/final_confusionmatrix.png, id=1307, 680.7834pt x 551.4201pt>
 File: img/Graphics/final_confusionmatrix.png Graphic file (type png)
 <use img/Graphics/final_confusionmatrix.png>
 Package pdftex.def Info: img/Graphics/final_confusionmatrix.png  used on input line 202.
 (pdftex.def)             Requested size: 416.83289pt x 337.61946pt.
- [69] [70 <./img/Graphics/final_confusionmatrix.png>]
+ [67] [68 <./img/Graphics/final_confusionmatrix.png>]
 Underfull \hbox (badness 1668) in paragraph at lines 218--219
 []\OT1/ptm/m/n/12 (+20) User se-lects ei-ther Up-load Au-dio or
  []
@@ -2641,7 +2364,7 @@ Overfull \hbox (5.50568pt too wide) in paragraph at lines 213--237
  [][] 
  []
 
-[71
+[69
 
 ]
 Underfull \hbox (badness 6725) in paragraph at lines 252--253
@@ -2653,35 +2376,35 @@ Overfull \hbox (5.50568pt too wide) in paragraph at lines 245--267
  [][] 
  []
 
-[72
+[70
 
 ])
 \openout2 = `5DiscussionAndAnalysis/discussionAndAnalysis.aux'.
 
  (5DiscussionAndAnalysis/discussionAndAnalysis.tex
 Chapter 5.
+[71
+
+
+
+
+
+]) [72]
+\openout2 = `6FutureEnhancement/futureEnhancement.aux'.
+
+ (6FutureEnhancement/futureEnhancement.tex
+Chapter 6.
 [73
 
 
 
 
-
 ]) [74]
-\openout2 = `6FutureEnhancement/futureEnhancement.aux'.
-
- (6FutureEnhancement/futureEnhancement.tex
-Chapter 6.
-[75
-
-
-
-
-]) [76]
 \openout2 = `7Conclusion/conclusion.aux'.
 
  (7Conclusion/conclusion.tex
 Chapter 7.
-) [77
+) [75
 
 
 
@@ -2692,14 +2415,14 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 47.
 See the caption package documentation for explanation.
 
-[78
+[76
 
 
 
 ]) (Appendix/appendix2.tex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 13.
-) (Appendix/appendix3.tex [79]) (Appendix/appendix4.tex [80]) (Appendix/appendix5.tex [81]) (Appendix/appendix6.tex [82]) (Appendix/appendix7.tex [83]) (Appendix/appendix8.tex) (Appendix/appendix9.tex [84]) (Appendix/appendix10.tex [85]) (Appendix/appendix11.tex [86]) [87] [88] (main.bbl [1
+) (Appendix/appendix3.tex [77]) (Appendix/appendix4.tex [78]) (Appendix/appendix5.tex [79]) (Appendix/appendix6.tex [80]) (Appendix/appendix7.tex [81]) (Appendix/appendix8.tex) (Appendix/appendix9.tex [82]) (Appendix/appendix10.tex [83]) (Appendix/appendix11.tex [84]) [85] [86] (main.bbl [1
 
 ])
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
@@ -2719,17 +2442,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7161820E0C9FFD29E87171A9AA847E78;21144.
  ) 
 Here is how much of TeX's memory you used:
- 35749 strings out of 467871
- 701429 string characters out of 5418376
- 1153358 words of memory out of 5000000
+ 35747 strings out of 467871
+ 701415 string characters out of 5418376
+ 1153359 words of memory out of 5000000
  63065 multiletter control sequences out of 15000+600000
  668962 words of font info for 301 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,17n,120p,3286b,955s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/nisha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (108 pages, 2445222 bytes).
+Output written on main.pdf (106 pages, 2440918 bytes).
 PDF statistics:
- 1664 PDF objects out of 1728 (max. 8388607)
- 463 named destinations out of 1000 (max. 500000)
+ 1655 PDF objects out of 1728 (max. 8388607)
+ 461 named destinations out of 1000 (max. 500000)
  52354 words of extra memory for PDF output out of 61914 (max. 10000000)
 

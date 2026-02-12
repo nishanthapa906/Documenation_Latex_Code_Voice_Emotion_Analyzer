@@ -1,18 +1,18 @@
 \noaddvspace 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of Literature Review }}{28}{table.2.1}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of Literature Review}}{26}{table.2.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Instrumentation requirements}}{35}{table.caption.15}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Summary of all datasets used in the project.}}{39}{table.caption.16}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Gender distribution across the datasets.}}{39}{table.caption.17}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Emotion-wise sample distribution.}}{40}{table.caption.19}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Partitioning of the dataset into training, validation, and test sets.}}{41}{table.caption.20}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Audio properties of the dataset.}}{41}{table.caption.21}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Classification Metrics for Voice Emotion Analyzer}}{56}{table.caption.32}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Instrumentation requirements}}{33}{table.caption.15}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Summary of all datasets used in the project.}}{37}{table.caption.16}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Gender distribution across the datasets.}}{37}{table.caption.17}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Emotion-wise sample distribution.}}{38}{table.caption.19}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Partitioning of the dataset into training, validation, and test sets.}}{39}{table.caption.20}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Audio properties of the dataset.}}{39}{table.caption.21}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Classification Metrics for Voice Emotion Analyzer}}{54}{table.caption.32}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Best Case Scenario for Voice Emotion Analyzer}}{71}{table.caption.51}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Worst Case Scenario for Voice Emotion Analyzer}}{72}{table.caption.52}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Best Case Scenario for Voice Emotion Analyzer}}{69}{table.caption.51}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Worst Case Scenario for Voice Emotion Analyzer}}{70}{table.caption.52}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
