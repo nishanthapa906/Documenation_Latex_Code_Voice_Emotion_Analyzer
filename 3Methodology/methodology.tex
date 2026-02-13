@@ -114,10 +114,10 @@ Minimization of this loss function adjusts the network weights to achieve accura
 This block had represented the origin of audio data for emotion Analyzer. Voice had been acquired either through live microphone input or by uploading pre-recorded audio files. For live input, the audio had been captured in real time at a fixed sampling rate, ensuring minimal distortion and preservation of emotional characteristics. For file uploads, the system had accepted standard audio formats such as WAV or MP3, which had been automatically converted to the required sampling rate and bit depth. The purpose of this block had been to provide high-quality, standardized audio signals that accurately reflected the speaker’s emotional state and were suitable for processing.
 
 \subsection{Audio Preprocessing}
-The captured raw audio signal had undergone multiple preprocessing steps to improve clarity and consistency. Noise reduction had been applied using spectral gating or Wiener filtering to remove background interference while preserving the speaker’s voice. Amplitude normalization had been performed to ensure uniform volume across all recordings. Silence trimming had been executed to eliminate pauses or irrelevant low-energy sections, reducing computational overhead. Pre-emphasis filtering had been optionally applied to enhance high-frequency components, which often contained subtle emotional cues. Additionally, for variable-length audio files, the signal had been segmented or padded to a fixed duration suitable for input to the neural network. The purpose of this block had been to standardize the audio signal, reduce variability due to non-emotional factors, and retain the essential emotional information for feature extraction.
+The captured raw audio signal had undergone multiple preprocessing steps to improve clarity and consistency. Noise reduction had been applied using spectral gating or Wiener filtering to remove background interference while preserving the speaker’s voice. Amplitude normalization had been performed to ensure uniform volume across all recordings. Silence trimming had been executed to eliminate pauses or irrelevant low-energy sections, reducing computational overhead. Pre-emphasis filtering had been optionally applied to enhance high-frequency components, which often contained subtle emotional cues. The purpose of this block had been to standardize the audio signal, reduce variability due to non-emotional factors, and retain the essential emotional information for feature extraction.
 
 \subsection{Feature Extraction}
-From the preprocessed audio, numerical features had been derived to represent its acoustic properties. Mel-Frequency Cepstral Coefficients (MFCCs) had been computed by first applying a Short-Time Fourier Transform (STFT) to convert the time-domain signal into a frequency-domain representation. The resulting spectrogram had been mapped onto the Mel scale to reflect human auditory perception. Discrete Cosine Transform had been applied to compress the Mel spectrogram into a set of coefficients representing the spectral envelope. Chroma features had been extracted by computing the energy distribution across the 12 pitch classes, capturing harmonic content. Spectral Contrast had been calculated by measuring the difference between peak and valley energies in each frequency sub-band, highlighting tonal variations associated with emotional expression. These features had been normalized and stored in a structured matrix, forming the input for the convolutional neural network. The purpose of this block had been to transform the raw audio into a quantitative representation that preserved emotional characteristics while reducing irrelevant variations.
+From the preprocessed audio, numerical features had been derived to represent its acoustic properties. Mel-Frequency Cepstral Coefficients had been computed by first applying a Short-Time Fourier Transform to convert the time-domain signal into a frequency-domain representation. The resulting spectrogram had been mapped onto the Mel scale to reflect human auditory perception. Discrete Cosine Transform had been applied to compress the Mel spectrogram into a set of coefficients representing the spectral envelope. Chroma features had been extracted by computing the energy distribution across the 12 pitch classes, capturing harmonic content. Spectral Contrast had been calculated by measuring the difference between peak and valley energies in each frequency sub-band, highlighting tonal variations associated with emotional expression. These features had been normalized and stored in a structured matrix, forming the input for the convolutional neural network. The purpose of this block had been to transform the raw audio into a quantitative representation that preserved emotional characteristics while reducing irrelevant variations.
 
 \subsection{Deep Learning Model}
 The extracted features had been fed into a convolutional neural network integrated with Efficient Channel Attention. Convolutional layers had automatically learned local patterns across time and frequency dimensions of the feature matrix. Efficient Channel Attention had been applied to emphasize emotion-relevant channels and suppress redundant or noisy features. Pooling layers had reduced dimensionality while retaining key information, and the feature maps had subsequently been flattened and processed through fully connected layers. The network had been trained using categorical cross-entropy loss to predict the probability distribution over emotion classes. The purpose of this block had been to learn complex relationships and temporal dependencies in the audio features, enabling accurate classification of emotions such as happiness, sadness, anger, and neutrality.
@@ -133,6 +133,8 @@ The predicted emotion had been displayed through a user-friendly interface, such
 
 \begin{table}[h]
     \centering
+    \caption{Instrumentation requirements}
+    \label{tab:my_label}
     \begin{tabular}{|c|c|c|}
     \hline
     \textbf{Hardware} & \textbf{Software} & \textbf{Programming Languages} \\
@@ -154,8 +156,7 @@ The predicted emotion had been displayed through a user-friendly interface, such
                               &                      & Keras are used.\\
     \hline
     \end{tabular}
-    \caption{Instrumentation requirements}
-    \label{tab:my_label}
+    
 \end{table}
 
 
@@ -241,105 +242,122 @@ The dataset had consisted of labeled audio recordings organized to support super
 \subsection{Dataset Representation}
 
 \subsubsection{Summary of Datasets Used}
-
 \begin{table}[H]
 \centering
-\begin{tabular}{lccc}
-\toprule
-Dataset & Samples & Gender & Source \\
-\midrule
-RAVDESS & 1,440 & Male + Female & Ryerson University \\
-TESS & 2,800 & Female & University of Toronto \\
-SAVEE & 482 & Male & University of Surrey \\
-Custom Dataset 1 & 80 & Mixed & Self-Prepared \\
-Custom Dataset 2 & 80 & Mixed & Self-Prepared \\
-\midrule
-\textbf{Total} & 4,882 & Balanced & Multi-source \\
-\bottomrule
-\end{tabular}
 \caption{Summary of all datasets used in the project.}
+\label{tab:dataset_summary}
+\vspace{0.3cm}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Dataset} & \textbf{Samples} & \textbf{Gender} & \textbf{Source} \\
+\hline
+RAVDESS & 1,440 & Male + Female & Ryerson University \\
+\hline
+TESS & 2,800 & Female & University of Toronto \\
+\hline
+SAVEE & 482 & Male & University of Surrey \\
+\hline
+Custom Dataset 1 & 80 & Mixed & Self-Prepared \\
+\hline
+Custom Dataset 2 & 80 & Mixed & Self-Prepared \\
+\hline
+\textbf{Total} & \textbf{4,882} & \textbf{Balanced} & \textbf{Multi-source} \\
+\hline
+\end{tabular}
 \end{table}
 
 %-------------------------------------------------------------
 \subsubsection{Gender Distribution}
-
 \begin{table}[H]
 \centering
-\begin{tabular}{lcc}
-\toprule
-Gender & Samples & Percentage \\
-\midrule
-Female & 2,600 & 53.2\% \\
-Male & 2,200 & 45.1\% \\
-Mixed / Unspecified & 82 & 1.7\% \\
-\bottomrule
-\end{tabular}
 \caption{Gender distribution across the datasets.}
+\label{tab:gender_distribution}
+\vspace{0.3cm}
+\begin{tabular}{|l|r|c|}
+\hline
+\textbf{Gender} & \textbf{Samples} & \textbf{Percentage} \\
+\hline
+Female & 2,600 & 53.2\% \\
+\hline
+Male & 2,200 & 45.1\% \\
+\hline
+Mixed/Unspecified & 82 & 1.7\% \\
+\hline
+\end{tabular}
 \end{table}
 
 %-------------------------------------------------------------
 \subsubsection{Emotion Distribution}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=1\textwidth]{img/Graphics/Emotion_distribution_of_alldatasets.png}
-\caption{Emotion distribution of all datasets.}
-\end{figure}
-
 \begin{table}[H]
 \centering
-\begin{tabular}{lcc}
-\toprule
-Emotion & Samples & Percentage \\
-\midrule
-Neutral & 1,100 & 22.5\% \\
-Happy & 900 & 18.4\% \\
-Sad & 900 & 18.4\% \\
-Angry & 850 & 17.4\% \\
-Fear & 750 & 15.4\% \\
-Disgust & 550 & 11.3\% \\
-Surprise & 500 & 10.2\% \\
-Calm & 180 & 3.7\% \\
-\bottomrule
-\end{tabular}
 \caption{Emotion-wise sample distribution.}
+\label{tab:emotion_distribution}
+\vspace{0.3cm}
+\begin{tabular}{|l|r|c|}
+\hline
+\textbf{Emotion} & \textbf{Samples} & \textbf{Percentage} \\
+\hline
+Neutral & 1,100 & 22.5\% \\
+\hline
+Happy & 900 & 18.4\% \\
+\hline
+Sad & 900 & 18.4\% \\
+\hline
+Angry & 850 & 17.4\% \\
+\hline
+Fear & 750 & 15.4\% \\
+\hline
+Disgust & 550 & 11.3\% \\
+\hline
+Surprise & 500 & 10.2\% \\
+\hline
+\end{tabular}
 \end{table}
 
 %-------------------------------------------------------------
 \subsubsection{Train, Validation, and Test Split}
-
 \begin{table}[H]
 \centering
-\begin{tabular}{lcc}
-\toprule
-Subset & Samples & Percentage \\
-\midrule
-Training & 3,417 & 70\% \\
-Validation & 733 & 15\% \\
-Testing & 732 & 15\% \\
-\bottomrule
-\end{tabular}
 \caption{Partitioning of the dataset into training, validation, and test sets.}
+\label{tab:data_split}
+\vspace{0.3cm}
+\begin{tabular}{|l|r|c|}
+\hline
+\textbf{Subset} & \textbf{Samples} & \textbf{Percentage} \\
+\hline
+Training & 3,417 & 70\% \\
+\hline
+Validation & 733 & 15\% \\
+\hline
+Testing & 732 & 15\% \\
+\hline
+\end{tabular}
 \end{table}
 
 %-------------------------------------------------------------
 \subsubsection{Audio Characteristics}
-
 \begin{table}[H]
 \centering
-\begin{tabular}{ll}
-\toprule
-Attribute & Specification \\
-\midrule
-Format & WAV \\
-Sample Rate & 16,000 -- 48,000 Hz \\
-Standardized Rate & 22,050 Hz \\
-Duration & 1.5 -- 5 seconds \\
-Channels & Mono \\
-Bit Depth & 16-bit / 24-bit \\
-\bottomrule
-\end{tabular}
 \caption{Audio properties of the dataset.}
+\label{tab:audio_characteristics}
+\vspace{0.3cm}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Attribute} & \textbf{Specification} \\
+\hline
+Format & WAV \\
+\hline
+Sample Rate & 16,000--48,000 Hz \\
+\hline
+Standardized Rate & 22,050 Hz \\
+\hline
+Duration & 1.5--5 seconds \\
+\hline
+Channels & Mono \\
+\hline
+Bit Depth & 16-bit/24-bit \\
+\hline
+\end{tabular}
 \end{table}
 
 %-------------------------------------------------------------
@@ -713,28 +731,4 @@ Validation was performed to confirm that the Voice Emotion Analyzer correctly cl
     
 \end{enumerate}
 
-\subsection{Classification Metrics Summary}
 
-Table~\ref{tab:classification-metrics} summarizes the class-wise performance of the Voice Emotion Analyzer using precision, recall, F1-score, and support values for all emotion categories.
-
-\begin{table}[h]
-\centering
-\caption{Classification Metrics for Voice Emotion Analyzer}
-\label{tab:classification-metrics}
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Emotion} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Support} \\ \hline
-Angry & 0.8963 & 0.8272 & 0.8604 & 324 \\ \hline
-Disgust & 0.8227 & 0.7477 & 0.7834 & 329 \\ \hline
-Fear & 0.8615 & 0.8511 & 0.8563 & 329 \\ \hline
-Happy & 0.8202 & 0.7927 & 0.8062 & 328 \\ \hline
-Neutral & 0.8551 & 0.9282 & 0.8901 & 515 \\ \hline
-Sad & 0.8012 & 0.8110 & 0.8061 & 328 \\ \hline
-Surprise & 0.8014 & 0.8706 & 0.8346 & 255 \\ \hline
-\textbf{Accuracy} & \multicolumn{4}{c|}{0.8389} \\ \hline
-Macro Avg & 0.8369 & 0.8326 & 0.8339 & 2408 \\ \hline
-Weighted Avg & 0.8393 & 0.8389 & 0.8382 & 2408 \\ \hline
-\end{tabular}
-\end{table}
-
-The verification and validation procedures confirmed that the Voice Emotion Analyzer was functionally correct, reliable, robust, and capable of accurately distinguishing emotions across diverse voice inputs. The methodology also highlighted areas for improvement, including expanding dataset diversity, refining feature extraction, and tuning model hyperparameters for enhanced real-world performance.

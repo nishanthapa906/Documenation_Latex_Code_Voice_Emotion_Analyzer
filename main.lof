@@ -5,37 +5,39 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of the CNN-based Voice Emotion Analyzer pipeline.}}{28}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces System Block Diagram of Voice Emotion Analyzer}}{31}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Emotion distribution of all datasets.}}{38}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Pipeline from audio input to output.}}{40}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces MFCC feature extraction workflow from raw audio to feature matrix.}}{42}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces CNN architecture for processing MFCC features and classifying emotions.}}{43}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Percentage of Accuracy from each Class}}{44}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Mel spectrogram}}{46}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces MFCC}}{46}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Chroma gram}}{47}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Spectral Contrast}}{47}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Zero Crossing Rate}}{48}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Firebase Authentication}}{50}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Pipeline from audio input to output.}}{40}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces MFCC feature extraction workflow from raw audio to feature matrix.}}{42}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces CNN architecture for processing MFCC features and classifying emotions.}}{43}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Percentage of Accuracy from each Class}}{44}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mel spectrogram}}{46}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces MFCC}}{46}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Chroma gram}}{47}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Spectral Contrast}}{47}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Zero Crossing Rate}}{48}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Firebase Authentication}}{50}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces SignUp Page}}{55}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Login Page}}{56}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Landing Page}}{57}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Activity Page}}{58}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Live Audio Prediction}}{59}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Emotion Distribution for Live Inputs}}{60}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Live Audio Waveforms}}{60}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Live Audio Spectrograms}}{61}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Live Audio Suggestions}}{61}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces File Upload Prediction}}{62}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces File Upload Waveforms}}{62}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces File Upload Spectrograms}}{63}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Emotion Distribution for Uploaded Files}}{63}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces File Upload Suggestions}}{64}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces History Page}}{64}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Training and Validation Accuracy Curve}}{66}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Training and Validation Loss Curve}}{66}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Confusion Matrix}}{68}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces SignUp Page}}{54}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Login Page}}{55}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Landing Page}}{56}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Activity Page}}{57}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Live Audio Prediction}}{58}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Emotion Distribution for Live Inputs}}{59}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Live Audio Waveforms}}{59}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Live Audio Spectrograms}}{60}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Live Audio Suggestions}}{60}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces File Upload Prediction}}{61}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces File Upload Waveforms}}{61}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces File Upload Spectrograms}}{62}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Emotion Distribution for Uploaded Files}}{62}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces File Upload Suggestions}}{63}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces History Page}}{63}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Training and Validation Accuracy Curve}}{64}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Training and Validation Loss Curve}}{64}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Confusion Matrix}}{65}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Best Case}}{67}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Worst Case}}{68}{figure.caption.50}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Gantt Chart showing Project Timeline.}}{76}{figure.1..1}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Gantt Chart showing Project Timeline.}}{77}{figure.1..1}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Supervisor Consultation Form}}{88}{figure.caption.63}%

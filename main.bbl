@@ -1,5 +1,55 @@
 \begin{thebibliography}{10}
 
+\bibitem{outlr1}
+Biqiao Zhang.
+\newblock {\em Improving the Generalizability of Speech Emotion Recognition:
+  Methods for Handling Data and Label Variability}.
+\newblock PhD thesis, 2018.
+
+\bibitem{outlr2}
+Sandeep Rathor, Megha Kansal, Mansi Verma, Madhav Garg, and Rishabh Tiwari.
+\newblock Use of artificial intelligence in emotion recognition by ensemble
+  based multilevel classification.
+\newblock In {\em IOP Conference Series: Materials Science and Engineering},
+  volume 1116, page 012196. IOP Publishing, 2021.
+
+\bibitem{outlr3}
+Teghdeep Kapoor, Tanya Pandhi, and Bharat Gupta.
+\newblock Cough audio analysis for covid-19 diagnosis.
+\newblock {\em SN Computer Science}, 4(2):125, 2022.
+
+\bibitem{outlr4}
+Devyani Koshal, Orchid~Chetia Phukan, Sarthak Jain, Arun~Balaji Buduru, and
+  Rajesh Sharma.
+\newblock Persona: An application for emotion recognition, gender recognition
+  and age estimation.
+\newblock {\em arXiv preprint arXiv:2406.06781}, 2024.
+
+\bibitem{baclr1}
+Gregory~A Bryant.
+\newblock The evolution of human vocal emotion.
+\newblock {\em Emotion review}, 13(1):25--33, 2021.
+
+\bibitem{baclr2}
+Omafume Oritsegbemi.
+\newblock Human intelligence versus ai: implications for emotional aspects of
+  human communication.
+\newblock {\em Journal of Advanced Research in Social Sciences}, 6(2):76--85,
+  2023.
+
+\bibitem{baclr3}
+Dang~Thoai Phan.
+\newblock Comparison performance of spectrogram and scalogram as input of
+  acoustic recognition task.
+\newblock In {\em Future of Information and Communication Conference}, pages
+  660--673. Springer, 2025.
+
+\bibitem{baclr4}
+Mohammed Abdelwahab and Carlos Busso.
+\newblock Domain adversarial for acoustic emotion recognition.
+\newblock {\em IEEE/ACM Transactions on Audio, Speech, and Language
+  Processing}, 26(12):2423--2435, 2018.
+
 \bibitem{lr1}
 Leontios~J. Hadjileontiadis.
 \newblock Speech emotion recognition in conversations using artificial

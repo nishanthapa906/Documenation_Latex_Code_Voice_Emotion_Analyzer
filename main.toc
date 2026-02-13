@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {1.7.5}Schedule Feasibility}{10}{subsection.1.7.5}%
 \contentsline {subsection}{\numberline {1.7.6}Resource Feasibility}{10}{subsection.1.7.6}%
 \contentsline {subsection}{\numberline {1.7.7}Market Feasibility}{10}{subsection.1.7.7}%
-\contentsline {subsection}{\numberline {1.7.8}Social and Cultural Feasibility}{11}{subsection.1.7.8}%
+\contentsline {subsection}{\numberline {1.7.8}Social and Cultural Feasibility}{10}{subsection.1.7.8}%
 \contentsline {section}{\numberline {1.8}Originality of the Project}{12}{section.1.8}%
 \contentsline {section}{\numberline {1.9}Organization of Project }{13}{section.1.9}%
 \contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{14}{chapter.2}%
@@ -51,10 +51,10 @@
 \contentsline {subsection}{\numberline {3.3.2}Audio Preprocessing}{31}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Feature Extraction}{32}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Deep Learning Model}{32}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Emotion Classification Output}{33}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.5}Emotion Classification Output}{32}{subsection.3.3.5}%
 \contentsline {subsection}{\numberline {3.3.6}Frontend Interface}{33}{subsection.3.3.6}%
 \contentsline {section}{\numberline {3.4}Instrumentation Requirements}{33}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Explanation of Instrumentation Requirements}{34}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Explanation of Instrumentation Requirements}{33}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Dataset Explanation}{35}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Relevancy of the Dataset}{35}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Contents of the Dataset}{35}{subsection.3.5.2}%
@@ -63,7 +63,7 @@
 \contentsline {subsubsection}{\numberline {3.5.4.1}Summary of Datasets Used}{37}{subsubsection.3.5.4.1}%
 \contentsline {subsubsection}{\numberline {3.5.4.2}Gender Distribution}{37}{subsubsection.3.5.4.2}%
 \contentsline {subsubsection}{\numberline {3.5.4.3}Emotion Distribution}{38}{subsubsection.3.5.4.3}%
-\contentsline {subsubsection}{\numberline {3.5.4.4}Train, Validation, and Test Split}{39}{subsubsection.3.5.4.4}%
+\contentsline {subsubsection}{\numberline {3.5.4.4}Train, Validation, and Test Split}{38}{subsubsection.3.5.4.4}%
 \contentsline {subsubsection}{\numberline {3.5.4.5}Audio Characteristics}{39}{subsubsection.3.5.4.5}%
 \contentsline {section}{\numberline {3.6}Description of Algorithm}{40}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Algorithm Pipeline}{40}{subsection.3.6.1}%
@@ -82,42 +82,43 @@
 \contentsline {section}{\numberline {3.8}Verification and Validation Procedures}{51}{section.3.8}%
 \contentsline {subsection}{\numberline {3.8.1}Verification}{51}{subsection.3.8.1}%
 \contentsline {subsection}{\numberline {3.8.2}Validation}{52}{subsection.3.8.2}%
-\contentsline {subsection}{\numberline {3.8.3}Classification Metrics Summary}{54}{subsection.3.8.3}%
-\contentsline {chapter}{\numberline {4}RESULTS}{55}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Signup Page}{55}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Login Page}{56}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Landing Page}{57}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Activity Page}{58}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Live Audio Prediction}{59}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Emotion Distribution for Live Inputs}{60}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Live Audio Waveforms}{60}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Live Audio Spectrograms}{61}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Live Audio Suggestions}{61}{section.4.9}%
-\contentsline {section}{\numberline {4.10}File Upload Prediction}{62}{section.4.10}%
-\contentsline {section}{\numberline {4.11}File Upload Waveforms}{62}{section.4.11}%
-\contentsline {section}{\numberline {4.12}File Upload Spectrograms}{63}{section.4.12}%
-\contentsline {section}{\numberline {4.13}Emotion Distribution for Uploaded Files}{63}{section.4.13}%
-\contentsline {section}{\numberline {4.14}File Upload Suggestions}{64}{section.4.14}%
-\contentsline {section}{\numberline {4.15}History Page}{64}{section.4.15}%
-\contentsline {section}{\numberline {4.16}Training and Validation Loss}{65}{section.4.16}%
-\contentsline {section}{\numberline {4.17}Confusion Matrix}{67}{section.4.17}%
-\contentsline {section}{\numberline {4.18}Best Case Scenario: Voice Emotion Analyzer}{69}{section.4.18}%
-\contentsline {section}{\numberline {4.19}Worst Case Scenario: Voice Emotion Analyzer}{70}{section.4.19}%
-\contentsline {chapter}{\numberline {5}DISCUSSION AND ANALYSIS}{71}{chapter.5}%
-\contentsline {chapter}{\numberline {6}FUTURE ENCHANCEMENT}{73}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Unfulfilled Objectives and Remaining Challenges}{73}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Planned Improvements}{73}{section.6.2}%
-\contentsline {chapter}{\numberline {7}CONCLUSION}{75}{chapter.7}%
+\contentsline {chapter}{\numberline {4}RESULTS}{54}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Signup Page}{54}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Login Page}{55}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Landing Page}{56}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Activity Page}{57}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Live Audio Prediction}{58}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Emotion Distribution for Live Inputs}{59}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Live Audio Waveforms}{59}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Live Audio Spectrograms}{60}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Live Audio Suggestions}{60}{section.4.9}%
+\contentsline {section}{\numberline {4.10}File Upload Prediction}{61}{section.4.10}%
+\contentsline {section}{\numberline {4.11}File Upload Waveforms}{61}{section.4.11}%
+\contentsline {section}{\numberline {4.12}File Upload Spectrograms}{62}{section.4.12}%
+\contentsline {section}{\numberline {4.13}Emotion Distribution for Uploaded Files}{62}{section.4.13}%
+\contentsline {section}{\numberline {4.14}File Upload Suggestions}{63}{section.4.14}%
+\contentsline {section}{\numberline {4.15}History Page}{63}{section.4.15}%
+\contentsline {section}{\numberline {4.16}Training and Validation Loss}{64}{section.4.16}%
+\contentsline {section}{\numberline {4.17}Confusion Matrix}{65}{section.4.17}%
+\contentsline {section}{\numberline {4.18}Best Case Scenario: Voice Emotion Analyzer}{67}{section.4.18}%
+\contentsline {section}{\numberline {4.19}Worst Case Scenario: Voice Emotion Analyzer}{68}{section.4.19}%
+\contentsline {chapter}{\numberline {5}DISCUSSION AND ANALYSIS}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Classification Performance Summary}{73}{section.5.1}%
+\contentsline {chapter}{\numberline {6}FUTURE ENCHANCEMENT}{74}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Unfulfilled Objectives and Remaining Challenges}{74}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Planned Improvements}{74}{section.6.2}%
+\contentsline {chapter}{\numberline {7}CONCLUSION}{76}{chapter.7}%
 \textbf {APPENDIX A}
-\contentsline {section}{\numberline {A.1}Project Schedule}{76}{section.1..1}%
-\contentsline {section}{\numberline {A.2}Literature Review of Base Paper- I}{77}{section.1..2}%
-\contentsline {section}{\numberline {A.3}Literature Review of Base Paper- II}{78}{section.1..3}%
-\contentsline {section}{\numberline {A.4}Literature Review of Base Paper- III}{79}{section.1..4}%
-\contentsline {section}{\numberline {A.5}Literature Review of Base Paper- IV}{80}{section.1..5}%
-\contentsline {section}{\numberline {A.6}Literature Review of Base Paper- V}{81}{section.1..6}%
-\contentsline {section}{\numberline {A.7}Literature Review of Base Paper- VI}{82}{section.1..7}%
-\contentsline {section}{\numberline {A.8}Literature Review of Base Paper- VII}{83}{section.1..8}%
-\contentsline {section}{\numberline {A.9}Literature Review of Base Paper- VIII}{84}{section.1..9}%
-\contentsline {section}{\numberline {A.10}Literature Review of Base Paper- IX}{85}{section.1..10}%
-\contentsline {section}{\numberline {A.11}Literature Review of Base Paper- X}{86}{section.1..11}%
+\contentsline {section}{\numberline {A.1}Project Schedule}{77}{section.1..1}%
+\contentsline {section}{\numberline {A.2}Literature Review of Base Paper- I}{78}{section.1..2}%
+\contentsline {section}{\numberline {A.3}Literature Review of Base Paper- II}{79}{section.1..3}%
+\contentsline {section}{\numberline {A.4}Literature Review of Base Paper- III}{80}{section.1..4}%
+\contentsline {section}{\numberline {A.5}Literature Review of Base Paper- IV}{81}{section.1..5}%
+\contentsline {section}{\numberline {A.6}Literature Review of Base Paper- V}{82}{section.1..6}%
+\contentsline {section}{\numberline {A.7}Literature Review of Base Paper- VI}{83}{section.1..7}%
+\contentsline {section}{\numberline {A.8}Literature Review of Base Paper- VII}{84}{section.1..8}%
+\contentsline {section}{\numberline {A.9}Literature Review of Base Paper- VIII}{85}{section.1..9}%
+\contentsline {section}{\numberline {A.10}Literature Review of Base Paper- IX}{86}{section.1..10}%
+\contentsline {section}{\numberline {A.11}Literature Review of Base Paper- X}{87}{section.1..11}%
+\contentsline {section}{\numberline {A.12}Supervisor Consultation Form}{88}{section.1..12}%
 \contentsline {chapter}{REFERENCES}{}{appendix*.64}%
