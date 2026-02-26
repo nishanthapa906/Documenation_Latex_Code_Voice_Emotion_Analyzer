@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}
+
+\bibitem{outlr1}
+Biqiao Zhang.
+\newblock {\em Improving the Generalizability of Speech Emotion Recognition:
+  Methods for Handling Data and Label Variability}.
+\newblock PhD thesis, 2018.
+
+\bibitem{outlr2}
+Sandeep Rathor, Megha Kansal, Mansi Verma, Madhav Garg, and Rishabh Tiwari.
+\newblock Use of artificial intelligence in emotion recognition by ensemble
+  based multilevel classification.
+\newblock In {\em IOP Conference Series: Materials Science and Engineering},
+  volume 1116, page 012196. IOP Publishing, 2021.
+
+\bibitem{outlr3}
+Teghdeep Kapoor, Tanya Pandhi, and Bharat Gupta.
+\newblock Cough audio analysis for covid-19 diagnosis.
+\newblock {\em SN Computer Science}, 4(2):125, 2022.
+
+\bibitem{outlr4}
+Devyani Koshal, Orchid~Chetia Phukan, Sarthak Jain, Arun~Balaji Buduru, and
+  Rajesh Sharma.
+\newblock Persona: An application for emotion recognition, gender recognition
+  and age estimation.
+\newblock {\em arXiv preprint arXiv:2406.06781}, 2024.
+
+\bibitem{baclr1}
+Gregory~A Bryant.
+\newblock The evolution of human vocal emotion.
+\newblock {\em Emotion review}, 13(1):25--33, 2021.
+
+\bibitem{baclr2}
+Omafume Oritsegbemi.
+\newblock Human intelligence versus ai: implications for emotional aspects of
+  human communication.
+\newblock {\em Journal of Advanced Research in Social Sciences}, 6(2):76--85,
+  2023.
+
+\bibitem{baclr3}
+Dang~Thoai Phan.
+\newblock Comparison performance of spectrogram and scalogram as input of
+  acoustic recognition task.
+\newblock In {\em Future of Information and Communication Conference}, pages
+  660--673. Springer, 2025.
+
+\bibitem{baclr4}
+Mohammed Abdelwahab and Carlos Busso.
+\newblock Domain adversarial for acoustic emotion recognition.
+\newblock {\em IEEE/ACM Transactions on Audio, Speech, and Language
+  Processing}, 26(12):2423--2435, 2018.
+
+\bibitem{lr1}
+Leontios~J. Hadjileontiadis.
+\newblock Speech emotion recognition in conversations using artificial
+  intelligence: a systematic review and meta-analysis.
+\newblock {\em Artificial Intelligence Review}, 58(7):198, 2025.
+
+\bibitem{lr2}
+Yüksel Yurtay, Hüseyin Demirci, Hüseyin Tiryaki, and Tekin Altun.
+\newblock Emotion recognition on call center voice data.
+\newblock {\em Applied Sciences}, 14(20), 2024.
+
+\bibitem{lr3}
+Rohit Rastogi, Tushar Anand, Shubham Sharma, and Sarthak Panwar.
+\newblock Emotion detection via voice and speech recognition.
+\newblock {\em International Journal of Cyber Behavior, Psychology and
+  Learning}, 13:1--24, 01 2023.
+
+\bibitem{lr4}
+Manuel Milling, Alice Baird, Katrin~D Bartl-Pokorny, Shuo Liu, Alyssa~M Alcorn,
+  Jie Shen, Teresa Tavassoli, Eloise Ainger, Elizabeth Pellicano, Maja Pantic,
+  et~al.
+\newblock Evaluating the impact of voice activity detection on speech emotion
+  recognition for autistic children.
+\newblock {\em Frontiers in Computer Science}, 4:837269, 2022.
+
+\bibitem{lr5}
+Klaus~R Scherer.
+\newblock A cross-cultural investigation of emotion inferences from voice and
+  speech: Implications for speech technology.
+\newblock In {\em INTERSPEECH}, volume~4, pages 379--382, 2021.
+
+\bibitem{lr6}
+Christiana Tsiourti, Astrid Weiss, Katarzyna Wac, and Markus Vincze.
+\newblock Multimodal integration of emotional signals from voice, body, and
+  context: Effects of (in) congruence on emotion recognition and attitudes
+  towards robots.
+\newblock {\em International Journal of Social Robotics}, 11(4):555--573, 2019.
+
+\bibitem{lr7}
+DASC Alu, Elteto Zoltan, and Ioan~Cristian Stoica.
+\newblock Voice based emotion recognition with convolutional neural networks
+  for companion robots.
+\newblock {\em Science and Technology}, 20(3):222--240, 2017.
+
+\bibitem{lr8}
+Ting Dang, Vidhyasaharan Sethu, and Eliathamby Ambikairajah.
+\newblock Factor analysis based speaker normalisation for continuous emotion
+  prediction.
+\newblock In {\em INTERSPEECH}, pages 913--917, 2016.
+
+\bibitem{lr9}
+Sadil Chamishka, Ishara Madhavi, Rashmika Nawaratne, Damminda Alahakoon, Daswin
+  De~Silva, Naveen Chilamkurti, and Vishaka Nanayakkara.
+\newblock A voice-based real-time emotion detection technique using recurrent
+  neural network empowered feature modelling.
+\newblock {\em Multimedia Tools and Applications}, 81(24):35173--35194, 2022.
+
+\bibitem{lr10}
+Fatemeh Noroozi, Tomasz Sapi{\'n}ski, Dorota Kami{\'n}ska, and Gholamreza
+  Anbarjafari.
+\newblock Vocal-based emotion recognition using random forests and decision
+  tree.
+\newblock {\em International Journal of Speech Technology}, 20(2):239--246,
+  2017.
+
+\end{thebibliography}

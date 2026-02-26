@@ -1,7 +1,7 @@
 PWD f:\8th Sem project operation\Tex_live_mid_report_test
 INPUT C:\Users\nisha\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT f:\8th Sem project operation\Tex_live_mid_report_test\main.tex
-OUTPUT main.log
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.log
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -361,61 +361,61 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
-INPUT .\0ACover\0cover.aux
-INPUT .\0ACover\0cover.aux
-INPUT 0ACover\0cover.aux
-INPUT .\0ACover\1title.aux
-INPUT .\0ACover\1title.aux
-INPUT 0ACover\1title.aux
-INPUT .\0ACover\2copyright.aux
-INPUT .\0ACover\2copyright.aux
-INPUT 0ACover\2copyright.aux
-INPUT .\0ACover\3declaration.aux
-INPUT .\0ACover\3declaration.aux
-INPUT 0ACover\3declaration.aux
-INPUT .\0ACover\4recommendation.aux
-INPUT .\0ACover\4recommendation.aux
-INPUT 0ACover\4recommendation.aux
-INPUT .\0ACover\5departmentAcceptance.aux
-INPUT .\0ACover\5departmentAcceptance.aux
-INPUT 0ACover\5departmentAcceptance.aux
-INPUT .\0ACover\6letterofapproval.aux
-INPUT .\0ACover\6letterofapproval.aux
-INPUT 0ACover\6letterofapproval.aux
-INPUT .\0ACover\7acknowledgement.aux
-INPUT .\0ACover\7acknowledgement.aux
-INPUT 0ACover\7acknowledgement.aux
-INPUT .\0HAbstract\abstract.aux
-INPUT .\0HAbstract\abstract.aux
-INPUT 0HAbstract\abstract.aux
-INPUT .\0IAbbreviations\abbreviations.aux
-INPUT .\0IAbbreviations\abbreviations.aux
-INPUT 0IAbbreviations\abbreviations.aux
-INPUT .\1Introduction\introduction.aux
-INPUT .\1Introduction\introduction.aux
-INPUT 1Introduction\introduction.aux
-INPUT .\2Literaturereview\literaturereview.aux
-INPUT .\2Literaturereview\literaturereview.aux
-INPUT 2Literaturereview\literaturereview.aux
-INPUT .\3Methodology\methodology.aux
-INPUT .\3Methodology\methodology.aux
-INPUT 3Methodology\methodology.aux
-INPUT .\4Results\results.aux
-INPUT .\4Results\results.aux
-INPUT 4Results\results.aux
-INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.aux
-INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.aux
-INPUT 5DiscussionAndAnalysis\discussionAndAnalysis.aux
-INPUT .\6FutureEnhancement\futureEnhancement.aux
-INPUT .\6FutureEnhancement\futureEnhancement.aux
-INPUT 6FutureEnhancement\futureEnhancement.aux
-INPUT .\7Conclusion\conclusion.aux
-INPUT .\7Conclusion\conclusion.aux
-INPUT 7Conclusion\conclusion.aux
-OUTPUT main.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\0cover.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\0cover.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\0cover.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\1title.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\1title.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\1title.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\2copyright.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\2copyright.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\2copyright.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\3declaration.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\3declaration.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\3declaration.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\4recommendation.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\4recommendation.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\4recommendation.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\5departmentAcceptance.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\5departmentAcceptance.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\5departmentAcceptance.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\6letterofapproval.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\6letterofapproval.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\6letterofapproval.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\7acknowledgement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\7acknowledgement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\7acknowledgement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0HAbstract\abstract.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0HAbstract\abstract.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0HAbstract\abstract.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0IAbbreviations\abbreviations.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0IAbbreviations\abbreviations.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0IAbbreviations\abbreviations.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\1Introduction\introduction.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\1Introduction\introduction.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\1Introduction\introduction.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\2Literaturereview\literaturereview.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\2Literaturereview\literaturereview.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\2Literaturereview\literaturereview.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\3Methodology\methodology.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\3Methodology\methodology.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\3Methodology\methodology.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\4Results\results.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\4Results\results.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\4Results\results.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\5DiscussionAndAnalysis\discussionAndAnalysis.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\5DiscussionAndAnalysis\discussionAndAnalysis.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\5DiscussionAndAnalysis\discussionAndAnalysis.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\6FutureEnhancement\futureEnhancement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\6FutureEnhancement\futureEnhancement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\6FutureEnhancement\futureEnhancement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\7Conclusion\conclusion.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\7Conclusion\conclusion.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\7Conclusion\conclusion.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.aux
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -430,17 +430,17 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-ptm.cf
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT .\main.out
-INPUT .\main.out
-OUTPUT main.out
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.pdf
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
 INPUT .\0ACover\0cover.tex
 INPUT .\0ACover\0cover.tex
-OUTPUT 0ACover\0cover.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\0cover.aux
 INPUT .\0ACover\0cover.tex
 INPUT .\0ACover\0cover.tex
 INPUT 0ACover\0cover.tex
@@ -461,7 +461,7 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.v
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\0ACover\1title.tex
 INPUT .\0ACover\1title.tex
-OUTPUT 0ACover\1title.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\1title.aux
 INPUT .\0ACover\1title.tex
 INPUT .\0ACover\1title.tex
 INPUT 0ACover\1title.tex
@@ -469,7 +469,7 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.v
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\0ACover\2copyright.tex
 INPUT .\0ACover\2copyright.tex
-OUTPUT 0ACover\2copyright.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\2copyright.aux
 INPUT .\0ACover\2copyright.tex
 INPUT .\0ACover\2copyright.tex
 INPUT 0ACover\2copyright.tex
@@ -480,25 +480,25 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
 INPUT .\0ACover\3declaration.tex
 INPUT .\0ACover\3declaration.tex
-OUTPUT 0ACover\3declaration.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\3declaration.aux
 INPUT .\0ACover\3declaration.tex
 INPUT .\0ACover\3declaration.tex
 INPUT 0ACover\3declaration.tex
 INPUT .\0ACover\4recommendation.tex
 INPUT .\0ACover\4recommendation.tex
-OUTPUT 0ACover\4recommendation.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\4recommendation.aux
 INPUT .\0ACover\4recommendation.tex
 INPUT .\0ACover\4recommendation.tex
 INPUT 0ACover\4recommendation.tex
 INPUT .\0ACover\5departmentAcceptance.tex
 INPUT .\0ACover\5departmentAcceptance.tex
-OUTPUT 0ACover\5departmentAcceptance.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\5departmentAcceptance.aux
 INPUT .\0ACover\5departmentAcceptance.tex
 INPUT .\0ACover\5departmentAcceptance.tex
 INPUT 0ACover\5departmentAcceptance.tex
 INPUT .\0ACover\6letterofapproval.tex
 INPUT .\0ACover\6letterofapproval.tex
-OUTPUT 0ACover\6letterofapproval.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\6letterofapproval.aux
 INPUT .\0ACover\6letterofapproval.tex
 INPUT .\0ACover\6letterofapproval.tex
 INPUT 0ACover\6letterofapproval.tex
@@ -511,21 +511,21 @@ INPUT .\img\Graphics\LOA.jpg
 INPUT .\img\Graphics\LOA.jpg
 INPUT .\0ACover\7acknowledgement.tex
 INPUT .\0ACover\7acknowledgement.tex
-OUTPUT 0ACover\7acknowledgement.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\7acknowledgement.aux
 INPUT .\0ACover\7acknowledgement.tex
 INPUT .\0ACover\7acknowledgement.tex
 INPUT 0ACover\7acknowledgement.tex
 INPUT .\0HAbstract\abstract.tex
 INPUT .\0HAbstract\abstract.tex
-OUTPUT 0HAbstract\abstract.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0HAbstract\abstract.aux
 INPUT .\0HAbstract\abstract.tex
 INPUT .\0HAbstract\abstract.tex
 INPUT 0HAbstract\abstract.tex
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT .\main.toc
-INPUT .\main.toc
-INPUT main.toc
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.toc
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.toc
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.toc
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
@@ -569,24 +569,24 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-OUTPUT main.toc
-INPUT .\main.lof
-INPUT .\main.lof
-INPUT main.lof
-OUTPUT main.lof
-INPUT .\main.lot
-INPUT .\main.lot
-INPUT main.lot
-OUTPUT main.lot
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.toc
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lof
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lof
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lof
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lof
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lot
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lot
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lot
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.lot
 INPUT .\0IAbbreviations\abbreviations.tex
 INPUT .\0IAbbreviations\abbreviations.tex
-OUTPUT 0IAbbreviations\abbreviations.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0IAbbreviations\abbreviations.aux
 INPUT .\0IAbbreviations\abbreviations.tex
 INPUT .\0IAbbreviations\abbreviations.tex
 INPUT 0IAbbreviations\abbreviations.tex
 INPUT .\1Introduction\introduction.tex
 INPUT .\1Introduction\introduction.tex
-OUTPUT 1Introduction\introduction.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\1Introduction\introduction.aux
 INPUT .\1Introduction\introduction.tex
 INPUT .\1Introduction\introduction.tex
 INPUT 1Introduction\introduction.tex
@@ -601,13 +601,13 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\2Literaturereview\literaturereview.tex
 INPUT .\2Literaturereview\literaturereview.tex
-OUTPUT 2Literaturereview\literaturereview.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\2Literaturereview\literaturereview.aux
 INPUT .\2Literaturereview\literaturereview.tex
 INPUT .\2Literaturereview\literaturereview.tex
 INPUT 2Literaturereview\literaturereview.tex
 INPUT .\3Methodology\methodology.tex
 INPUT .\3Methodology\methodology.tex
-OUTPUT 3Methodology\methodology.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\3Methodology\methodology.aux
 INPUT .\3Methodology\methodology.tex
 INPUT .\3Methodology\methodology.tex
 INPUT 3Methodology\methodology.tex
@@ -726,7 +726,7 @@ INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT .\4Results\results.tex
 INPUT .\4Results\results.tex
-OUTPUT 4Results\results.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\4Results\results.aux
 INPUT .\4Results\results.tex
 INPUT .\4Results\results.tex
 INPUT 4Results\results.tex
@@ -872,20 +872,20 @@ INPUT .\img\Graphics\worstcase1.png
 INPUT .\img\Graphics\worstcase1.png
 INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.tex
 INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.tex
-OUTPUT 5DiscussionAndAnalysis\discussionAndAnalysis.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\5DiscussionAndAnalysis\discussionAndAnalysis.aux
 INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.tex
 INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.tex
 INPUT 5DiscussionAndAnalysis\discussionAndAnalysis.tex
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT .\6FutureEnhancement\futureEnhancement.tex
 INPUT .\6FutureEnhancement\futureEnhancement.tex
-OUTPUT 6FutureEnhancement\futureEnhancement.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\6FutureEnhancement\futureEnhancement.aux
 INPUT .\6FutureEnhancement\futureEnhancement.tex
 INPUT .\6FutureEnhancement\futureEnhancement.tex
 INPUT 6FutureEnhancement\futureEnhancement.tex
 INPUT .\7Conclusion\conclusion.tex
 INPUT .\7Conclusion\conclusion.tex
-OUTPUT 7Conclusion\conclusion.aux
+OUTPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\7Conclusion\conclusion.aux
 INPUT .\7Conclusion\conclusion.tex
 INPUT .\7Conclusion\conclusion.tex
 INPUT 7Conclusion\conclusion.tex
@@ -948,63 +948,63 @@ INPUT .\img\Graphics\SFC.jpg
 INPUT .\img\Graphics\SFC.jpg
 INPUT .\img\Graphics\SFC.jpg
 INPUT .\img\Graphics\SFC.jpg
-INPUT .\main.bbl
-INPUT .\main.bbl
-INPUT main.bbl
-INPUT main.aux
-INPUT .\0ACover\0cover.aux
-INPUT .\0ACover\0cover.aux
-INPUT 0ACover\0cover.aux
-INPUT .\0ACover\1title.aux
-INPUT .\0ACover\1title.aux
-INPUT 0ACover\1title.aux
-INPUT .\0ACover\2copyright.aux
-INPUT .\0ACover\2copyright.aux
-INPUT 0ACover\2copyright.aux
-INPUT .\0ACover\3declaration.aux
-INPUT .\0ACover\3declaration.aux
-INPUT 0ACover\3declaration.aux
-INPUT .\0ACover\4recommendation.aux
-INPUT .\0ACover\4recommendation.aux
-INPUT 0ACover\4recommendation.aux
-INPUT .\0ACover\5departmentAcceptance.aux
-INPUT .\0ACover\5departmentAcceptance.aux
-INPUT 0ACover\5departmentAcceptance.aux
-INPUT .\0ACover\6letterofapproval.aux
-INPUT .\0ACover\6letterofapproval.aux
-INPUT 0ACover\6letterofapproval.aux
-INPUT .\0ACover\7acknowledgement.aux
-INPUT .\0ACover\7acknowledgement.aux
-INPUT 0ACover\7acknowledgement.aux
-INPUT .\0HAbstract\abstract.aux
-INPUT .\0HAbstract\abstract.aux
-INPUT 0HAbstract\abstract.aux
-INPUT .\0IAbbreviations\abbreviations.aux
-INPUT .\0IAbbreviations\abbreviations.aux
-INPUT 0IAbbreviations\abbreviations.aux
-INPUT .\1Introduction\introduction.aux
-INPUT .\1Introduction\introduction.aux
-INPUT 1Introduction\introduction.aux
-INPUT .\2Literaturereview\literaturereview.aux
-INPUT .\2Literaturereview\literaturereview.aux
-INPUT 2Literaturereview\literaturereview.aux
-INPUT .\3Methodology\methodology.aux
-INPUT .\3Methodology\methodology.aux
-INPUT 3Methodology\methodology.aux
-INPUT .\4Results\results.aux
-INPUT .\4Results\results.aux
-INPUT 4Results\results.aux
-INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.aux
-INPUT .\5DiscussionAndAnalysis\discussionAndAnalysis.aux
-INPUT 5DiscussionAndAnalysis\discussionAndAnalysis.aux
-INPUT .\6FutureEnhancement\futureEnhancement.aux
-INPUT .\6FutureEnhancement\futureEnhancement.aux
-INPUT 6FutureEnhancement\futureEnhancement.aux
-INPUT .\7Conclusion\conclusion.aux
-INPUT .\7Conclusion\conclusion.aux
-INPUT 7Conclusion\conclusion.aux
-INPUT .\main.out
-INPUT .\main.out
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.bbl
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.bbl
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.bbl
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\0cover.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\0cover.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\0cover.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\1title.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\1title.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\1title.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\2copyright.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\2copyright.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\2copyright.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\3declaration.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\3declaration.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\3declaration.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\4recommendation.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\4recommendation.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\4recommendation.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\5departmentAcceptance.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\5departmentAcceptance.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\5departmentAcceptance.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\6letterofapproval.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\6letterofapproval.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\6letterofapproval.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\7acknowledgement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\7acknowledgement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0ACover\7acknowledgement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0HAbstract\abstract.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0HAbstract\abstract.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0HAbstract\abstract.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0IAbbreviations\abbreviations.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0IAbbreviations\abbreviations.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\0IAbbreviations\abbreviations.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\1Introduction\introduction.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\1Introduction\introduction.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\1Introduction\introduction.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\2Literaturereview\literaturereview.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\2Literaturereview\literaturereview.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\2Literaturereview\literaturereview.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\3Methodology\methodology.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\3Methodology\methodology.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\3Methodology\methodology.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\4Results\results.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\4Results\results.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\4Results\results.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\5DiscussionAndAnalysis\discussionAndAnalysis.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\5DiscussionAndAnalysis\discussionAndAnalysis.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\5DiscussionAndAnalysis\discussionAndAnalysis.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\6FutureEnhancement\futureEnhancement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\6FutureEnhancement\futureEnhancement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\6FutureEnhancement\futureEnhancement.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\7Conclusion\conclusion.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\7Conclusion\conclusion.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\7Conclusion\conclusion.aux
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
+INPUT f:\8th Sem project operation\Tex_live_mid_report_test\%OUTDIR%\main.out
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\nisha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
